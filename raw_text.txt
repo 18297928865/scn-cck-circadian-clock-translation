@@ -1,0 +1,1551 @@
+=== PAGE 1 ===
+Article
+Cholecystokinin neurons in mouse suprachiasmatic
+nucleus regulate the robustness of circadian clock
+Graphical abstract
+Highlights
+d Activities of SCN CCK neurons track the onset of circadian
+behavioral activities
+d SCN CCK neurons coordinate the circadian activities under
+long photoperiods
+d SCN CCK neurons interact with VIP neurons in the light
+entrainment pathway
+d SCN CCK neurons regulate the recovery rate of jet lag
+Authors
+Lucheng Xie, Yangyang Xiong,
+Danyi Ma, Kaiwen Shi, Jiu Chen,
+Qiaoqiao Yang, Jun Yan
+Correspondence
+junyan@ion.ac.cn
+In brief
+The mouse central circadian clock
+residing in the SCN consists of multiple
+neuronal subtypes. Xie et al. uncover a
+neural circuit involving CCK neurons that
+times the onset of circadian activities and
+regulates circadian behaviors under a
+long-day photoperiod and phase shift in
+jet lag.
+Xie et al., 2023, Neuron 111, 2201–2217
+July 19, 2023 ª 2023 Elsevier Inc.
+https://doi.org/10.1016/j.neuron.2023.04.016
+ll
+
+
+=== PAGE 2 ===
+Article
+Cholecystokinin neurons in mouse suprachiasmatic
+nucleus regulate the robustness of circadian clock
+Lucheng Xie,1,2,6 Yangyang Xiong,1,2,6 Danyi Ma,1,6 Kaiwen Shi,1 Jiu Chen,1 Qiaoqiao Yang,5 and Jun Yan1,3,4,7,*
+1Institute of Neuroscience, State Key Laboratory of Neuroscience, CAS Center for Excellence in Brain Science and Intelligence Technology,
+Chinese Academy of Sciences, Shanghai 200031, China
+2University of Chinese Academy of Sciences, Shanghai 200031, China
+3Shanghai Center for Brain Science and Brain-Inspired Intelligence Technology, Shanghai 201210, China
+4School of Future Technology, University of Chinese Academy of Sciences, Beijing 101408, China
+5Department of Neurosurgery, Zhongshan Hospital, Fudan University, Shanghai 200032, China
+6These authors contributed equally
+7Lead contact
+*Correspondence: junyan@ion.ac.cn
+https://doi.org/10.1016/j.neuron.2023.04.016
+SUMMARY
+The suprachiasmatic nucleus (SCN) can generate robust circadian behaviors in mammals under different en-
+vironments, but the underlying neural mechanisms remained unclear. Here, we showed that the activities of
+cholecystokinin (CCK) neurons in the mouse SCN preceded the onset of behavioral activities under different
+photoperiods. CCK-neuron-deﬁcient mice displayed shortened free-running periods, failed to compress
+their activities under a long photoperiod, and developed rapid splitting or became arrhythmic under constant
+light. Furthermore, unlike vasoactive intestinal polypeptide (VIP) neurons, CCK neurons are not directly light
+sensitive, but their activation can elicit phase advance and counter light-induced phase delay mediated by
+VIP neurons. Under long photoperiods, the impact of CCK neurons on SCN dominates over that of VIP neu-
+rons. Finally, we found that the slow-responding CCK neurons control the rate of recovery during jet lag.
+Together, our results demonstrated that SCN CCK neurons are crucial for the robustness and plasticity of
+the mammalian circadian clock.
+INTRODUCTION
+The endogenous circadian clock drives daily oscillations of a
+wide range of physiological processes and behaviors in diverse
+organisms. At the molecular level, circadian rhythm is generated
+by the negative transcription-translation feedback loops (TTFLs)
+consisting of core clock genes such as Per1/2/3, Cry1/2, Bmal1,
+and Clock in mammals.1 Although most individual cells possess
+the circadian clock, the overt circadian activities of animals are
+entrained by the external environmental cues. Light has been
+considered the most important environmental factor inﬂuencing
+circadian rhythm. The circadian clock is entrained by 24-h light-
+dark cycles but continues to function under seasonal changes in
+environment. Thus, the robustness and plasticity of circadian
+clocks is crucial for animal survival. The circadian activities in
+most animals show a bimodal distribution, with two activity
+bouts aligned to the dawn and dusk, respectively.2 The seasonal
+adaptation of circadian behaviors is manifested by the adjust-
+ment of these two activity bouts under long and short photope-
+riods. Under the prolonged period of constant light (LL), animal
+activity can gradually split into two free-running components.
+Based on these observations, Pittendrigh and Daan proposed
+that two separate but coupled oscillators, namely the evening
+(E) and morning (M) oscillators, control these two activity bouts,
+respectively.3 This model predicts that E and M oscillators have
+different free-running periods, show different responses to light
+stimulus, and that their phase difference changes according to
+the day’s length, thus providing a basis for seasonal encoding
+of the circadian clock. In Drosophila, E and M oscillators have
+been identiﬁed as the speciﬁc subsets of clock neurons each
+of which can dominate the circadian system under different
+light-dark conditions.4,5 However, it is still unclear whether sim-
+ple E and M oscillators or a network of coupled oscillators are
+responsible for driving the E and M circadian behaviors and con-
+trolling the seasonal plasticity in mammals.6
+The suprachiasmatic nucleus (SCN), consisting of 20,000
+cells,has beenknown as the master circadian pacemaker inmam-
+mals.7 Light information enters the SCN from intrinsically photo-
+sensitive retinal ganglion cells (ipRGCs), and the inter-cellular
+coupling within the SCN is critical for generating synchronized os-
+cillations to govern downstream behaviors.8 Past studies of the
+SCN have mainly focused on neuropeptide-releasing neurons,
+including vasoactive intestinal polypeptide (VIP) and gastrin-
+releasing peptide (GRP) neurons in the ventral and core regions
+Neuron 111, 2201–2217, July 19, 2023 ª 2023 Elsevier Inc.
+2201
+ll
+
+
+=== PAGE 3 ===
+of the SCN and arginine vasopressin (AVP) neurons in the dorsal
+shell region of the SCN. It was suggested that VIP neurons receive
+direct retinal input and are important for phase resetting in the light
+entrainment pathway and synchronization of cellular circadian
+clocks,9–12 while AVP neurons have also been shown to be impor-
+tant for inter-cellular coupling within the SCN network.13–15 Neuro-
+peptide switching has been reported to contribute to photoperi-
+odism in mammals.16 Meanwhile, neurotransmitter GABA has
+been implicated in the seasonal plasticity of the SCN.17–21 As
+almost all SCN neurons are GABAergic, it is also unclear which
+subtypes of SCN neurons contribute to the seasonal plasticity of
+the circadian clock. In previous studies of the SCN on brain slices,
+Per2 luciferase expression of neurons located at different SCN
+subregions has been shown to oscillate at different phases.17,22
+The exposure to long-day photoperiods and LL can increase their
+phase dispersion and weaken inter-cellular coupling among SCN
+neurons.23,24 However, the identities of these differentially phased
+cells and the underlying mechanism remained unknown. Our
+recent study using single-cell RNA sequencing (scRNA-seq) and
+tissue-cleared imaging has suggested that SCN neurons can be
+divided into Avp+/Nms+, Vip+/Nms+, Cck+/C1ql3+, Grp+/Vip+,
+and Cck+/Bdnf+ subtypes.25 These neuronal subtypes display
+distinct circadian gene expression and light responsiveness and
+occupy different spatial locations in the SCN. Compared with
+VIP and AVP neurons, cholecystokinin (CCK) neurons showed a
+delayed phase of circadian clock gene expression. Furthermore,
+CCK neurons are enriched in the anterior shell region of the SCN,
+where E clock cells were thought to be located.22 So far, the circa-
+dian functions of CCK neurons in the SCN are still unclear.
+In this study, by monitoring in vivo calcium activity and behav-
+ioral activities in free-moving animals, we found that the calcium
+activities of SCN CCK neurons peaked before the activity onset
+under different photoperiods, while those of VIP neurons were
+spread over the entire light phase under a long-day photoperiod.
+Under LL, the calcium activities of CCK neurons remained oscil-
+lating, while those of VIP neurons lost rhythmicity. CCK neuron
+deﬁciency led to the shortening of the free-running period and
+the instability of circadian behaviors—speciﬁcally under long-
+day photoperiods and LL. Furthermore, we found that although
+CCK neurons are not directly light sensitive, the activation of
+CCK neurons can phase-advance the circadian clock and
+counter the phase delaying effect of light, thereby stabilizing
+the circadian clock under long-day photoperiods. The impact
+of VIP neurons on the SCN network was signiﬁcantly weakened,
+while that of CCK neurons was strengthened in long-day photo-
+periods. Finally, we found that the response of CCK neuronal ac-
+tivity to the sudden change in the light-dark cycle is signiﬁcantly
+slower than that of VIP neurons, and the inhibition of CCK neu-
+rons can signiﬁcantly shorten the time of recovery in jet lag. In
+summary, we revealed that SCN CCK neurons confer the robust-
+ness and plasticity needed for the circadian clock in mice.
+RESULTS
+Activities of SCN CCK neurons track the onset of
+circadian behavioral activities
+We ﬁrst examined the spontaneous calcium activities of SCN
+CCK and VIP neurons by long-term in vivo ﬁber photometry in
+free-moving CCK-Cre and VIP-Cre mice infected by adeno-
+associated virus (AAV) vectors encoding GCaMP6s (AAV-
+EF1a-DIO-GCaMP6s-P2A-nls-tdTomato) while monitoring their
+locomotion and body temperature (Figure 1A). The tdTomato+
+cells in CCK-Cre mice were mainly located in the shell region
+of anterior SCN and those of VIP-Cre mice in the ventral region
+of the posterior SCN, respectively, consistent with the speciﬁc
+spatial locations of CCK and VIP neurons reported in the
+SCN25 (Figures 1B and S1A). Under 12L:12D (light-dark cycle)
+condition, we found that SCN CCK neurons exhibited in vivo
+circadian rhythm peaking at ZT7.05 ± 0.37 (Zeitgeber time) in
+spontaneous calcium activity, about 5 h before the onset of loco-
+motion and the rise in body temperature at light-off (ZT12)
+(Figures 1C, 1D, and 1I). In comparison, SCN VIP neurons
+showed high levels of calcium activity across the entire span of
+daytime, consistent with the previous study.26 The waveforms
+of calcium activities are signiﬁcantly different between CCK
+and VIP neurons (p = 2.25 3 105, Kolmogorov-Smirnov test).
+We measured the half widths of their calcium peaks in both rising
+(W1) and declining (W2) phases, and found that the calcium pro-
+ﬁle of CCK neurons is narrower in terms of total half-width (W1 +
+W2) and more asymmetric in terms of W1/W2 than the calcium
+proﬁle of VIP neurons (Figures 1J and 1K). VIP neurons peaked
+at around ZT6.06 ± 0.29, earlier than the peak time of CCK neu-
+rons (Figure 1I). The ﬁber locations and the numbers of infected
+CCK neurons did not signiﬁcantly affect the daily calcium proﬁles
+for SCN CCK neurons (Figures S1A and S1B). Upon release from
+12L:12D to constant dark (DD) conditions, the circadian calcium
+activities of CCK and VIP neurons free run together with the loco-
+motion and body temperature rhythms, during which time the
+differential proﬁles of CCK and VIP neuron calcium activities
+were maintained (Figures 1C, 1E, and 1M).
+A long-day photoperiod is known to increase the phase
+dispersion among SCN neurons and the release into DD will
+lead to resynchronization.17,21 We next measured the calcium
+activities in CCK and VIP neurons under long-day photoperiods
+(20L:4D) (Figures 1C, 1F, and S1C). Under 20L:4D, VIP neuron
+calcium activity peaked at ZT2.42 ± 0.25 (light-off deﬁned as
+ZT12) again at the middle point of activity onset and offset, re-
+sulting in a signiﬁcant increase of phase difference relative to ac-
+tivity onset (D phase-onset; Figures 1I, 1F, and S2A–S2D). The
+daily calcium activity proﬁle of VIP neurons became signiﬁcantly
+broadened in the daytime and showed a decreased relative
+amplitude (RA) of oscillation and an increased baseline level un-
+der a long-day photoperiod (Figures 1L and S2E). Speciﬁcally,
+VIP neurons showed symmetric extension of calcium activity un-
+der 20L:4D, with increased total half-width compared with
+12L:12D (Figures 1J, S2F, and S2G). In CCK neurons, the RA
+of oscillation in calcium activity also decreased, but to a much
+lesser degree, and the baseline level of calcium activity was
+not signiﬁcantly different in 20L:4D compared with 12L:12D
+(Figures 1L and S2H). Under 20L:4D conditions, the calcium ac-
+tivity of CCK neurons slowly increased in the ﬁrst half of day-time
+period and reached the peak at ZT7.33 ± 0.49, still around 5 h
+before the onset of locomotion activity and the rise of body tem-
+perature (Figures 1C, 1G, 1M, S2C, and S2D). CCK neurons
+showed increased asymmetry of calcium activity (W1/W2) under
+20L:4D (Figure 1K), with an increased W1 but unchanged W2
+ll
+Article
+2202
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 4 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+K
+L
+M
+N
+(legend on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2203
+
+
+=== PAGE 5 ===
+(Figure S2B). Upon release to DD from 20L:4D, the calcium peak
+of phase-leading VIP neurons transiently retracted and that of
+phase-lagging CCK neurons was advanced until the phase rela-
+tionship between VIP and CCK neurons was re-established,
+similar to that under 12L:12D, indicating that VIP and CCK neu-
+rons interact with one another during the resynchronization pro-
+cess (Figures 1I and 1M). During this process, the activity offset
+retracted and activity onset advanced, while the calcium peak of
+CCK neurons remained phase-locked with activity onset time
+and that of VIP neurons remained phase-locked with the middle
+point of activity onset time and offset time (Figures 1M, 1N, and
+S2I–S2K).
+Furthermore, we examined Fos expression of SCN VIP, CCK,
+and AVP neurons at different times of day in mice under DD en-
+trained in 12L:12D or under 20L:4D by co-labeling the neuronal
+activity marker, Fos, with Avp, Vip, and Cck, using single-mole-
+cule ﬂuorescence in situ hybridization (smFISH) (Figures S3A
+and S3D). We found that Fos expression peaked at CT3 (Circa-
+dian time) for Avp+ neurons, CT6 for Vip+ neurons, and CT9 for
+Cck+ neurons under 12L:12D (Figure S3B). Under 20L:4D,
+smFISH analysis showed that Fos expression in Cck+ neurons
+was phase-delayed by the long-day condition relative to light-
+on but phase-locked with light-off (Figure S3E). Fos expression
+in Avp+ neurons was phase-advanced by the long-day condition
+relative to light-off but phase-locked with light-on. In Vip+ neu-
+rons, Fos expression was still higher in the daytime than the night
+time, but the RAs of circadian rhythms in Fos expression were
+reduced and the baseline level of Fos expression was increased
+under 20L:4D. We found that Fos expression in CCK and VIP
+neurons oscillated in the same phases as their respective cal-
+cium activity rhythms (Figures S3C and S3F) and underwent
+similar quantitative changes from 12L:12D to 20L:4D (Figures
+S3G and S3H). Together, both calcium activity and Fos expres-
+sion of SCN CCK neurons were phase-locked with the light-off,
+anticipating the onset of behavioral activities under different
+photoperiods.
+CCK neurons regulate circadian activity under long-day
+photoperiods
+We next examined the functions of SCN CCK neurons in circa-
+dian regulation of behaviors using a caspase-3-expressing
+AAV to ablate the SCN CCK neurons. We injected AAV encoding
+Cre-dependent taCasp3 (AAV-DIO-taCasp3) or a control ﬂuoro-
+phore (AAV-DIO-EYFP) bilaterally into the SCN of CCK-Cre mice
+(Figure 2A). Four weeks after injection, we measured the circa-
+dian rhythms of spontaneous wheel running activities in SCN
+CCK-neuron-deleted mice (CCK-Casp3). This resulted in a sig-
+niﬁcant reduction in the number of CCK neurons (control group,
+n = 1,149 ± 57.78; CCK-neuron-deleted group, n = 368.88 ±
+156.18) in the SCN (Figures 2B and 2C). We found that the pro-
+ﬁles of wheel running activities of CCK-Casp3 mice were not
+signiﬁcantly different from those of the control mice under
+12L:12D conditions (Figures 2D, 2E, and S4A; Data S1). Howev-
+er, after release into DD from the 12L:12D condition, the CCK-
+Casp3 mice exhibited signiﬁcantly shorter free-running periods
+Figure 1. In vivo calcium activities of SCN CCK and VIP neurons
+(A) A schematic diagram of long-term in vivo recording of calcium signal (GCaMP6s) with ﬁber photometry in the SCN and simultaneous recording of body
+temperature (Tb) and locomotor activity (LMA) in free-moving mice.
+(B) The timeline of ﬁber photometry experiment (top panel) and representative images showing ﬁber-optic cannula located above the SCN (bottom panel). Scale
+bars, 100 mm.
+(C) Representative plots of in vivo GCaMP6s signals (gray) of SCN CCK and VIP neurons, overlaid with locomotor activity (LMA, green) and body temperature (Tb,
+orange) in the actogram, under 12L:12D to constant dark (DD) (top panel) or 20L:4D to constant dark (DD) (bottom panel).
+(D) The average circadian proﬁles of in vivo GCaMP6s signals in SCN CCK (red, 4 = ZT7.05 ± 0.37) and VIP (blue, 4 = ZT6.06 ± 0.29) neurons under 12L:12D (LD1–
+3). 4 (acrophase) is the predicted peak or circadian phase. The average daily proﬁles of Tb (orange) and LMA (green) at 12L:12D were shown at the bottom. p value
+represents the result of Kolmogorov-Smirnov test between proﬁles of GCaMP signals in SCN CCK and VIP neurons; mean ± SEM; CCK, n = 6; VIP, n = 6.
+(E) The average circadian proﬁles of in vivo GCaMP6 signals in SCN CCK (red, 4 = CT7.37 ± 0.61) and VIP (blue, 4 = CT6.01 ± 0.21) neurons under DD (DD1–3)
+released from 12L:12D. Same as (D); CCK, n = 3; VIP, n = 4.
+(F) The average circadian proﬁles of in vivo GCaMP6 signals in SCN CCK (red, 4 = ZT7.23 ± 0.41) and VIP (blue, 4 = ZT2.89 ± 0.54) neurons under 20L:4D (LD1–3).
+Same as (D); CCK, n = 5; VIP, n = 5.
+(G) The average circadian proﬁles of in vivo GCaMP6 signals in SCN CCK (red, 4 = CT7.22 ± 0.36) and VIP (blue, 4 = CT6.11 ± 0.17) neurons under DD (DD7–9)
+released from 20L:4D. Same as (D); CCK, n = 4; VIP, n = 4.
+(H) A schematic diagram showing how to characterize the waveform of calcium signal by relative amplitude (RA), width of half-maximum in the rising phase (W1),
+and width of half-maximum in the declining phase (W2), and the predicted peak or circadian phase (4, acrophase).
+(I) The difference between acrophase (4) of GCaMP6s signals in SCN CCK (red) and VIP (blue) neurons under 12L:12D, DD from 12L:12D, 20L:4D and DD from
+20L:4D conditions (****p < 0.0001; ***p < 0.001; **p < 0.01; *p < 0.05 by two-way ANOVA with Tukey’s post hoc test). The numbers of animals used in 12L:12D
+(CCK, n = 6; VIP, n = 6), DD from 12L:12D (CCK, n = 3; VIP, n = 4), 20L:4D (CCK, n = 5; VIP, n = 5), and DD from 20L:4D (CCK, n = 4; VIP, n = 4).
+(J) The difference between total width of half-maximum (W1 + W2) of GCaMP6s signals in SCN CCK (red) and VIP (blue) neurons under 12L:12D, DD from
+12L:12D, 20L:4D and DD from 20L:4D conditions (****p < 0.0001; ***p < 0.001 by two-way ANOVA with Tukey’s post hoc test). The numbers of animals used same
+as (I).
+(K) The difference between the ratios of W1 and W2 of GCaMP6s signals in SCN CCK (red) and VIP (blue) neurons under 12L:12D, DD from 12L:12D, 20L:4D and
+DD from 20L:4D conditions (****p < 0.0001; **p < 0.01; *p < 0.05 by two-way ANOVA with Tukey’s post hoc test). The numbers of animals used same as (I).
+(L) The difference between RA (relative amplitude) of GCaMP6s signals in SCN CCK (red) and VIP (blue) neurons under 12L:12D, DD from 12L:12D, 20L:4D, and
+DD from 20L:4D conditions in the same mice (**p < 0.01; *p < 0.05 by paired t test). CCK, n = 3; VIP, n = 3.
+(M) Plots of acrophase of GCaMP6s signals in SCN CCK (red) and VIP (blue) neurons, LMA onset and offset (green), Tb onset and offset (orange) from 12L:12D to
+DD (top panel) and 20L:4D to DD (bottom panel). 12L:12D to DD: CCK, n = 3; VIP, n = 3; 20L:4D to DD: CCK, n = 4; VIP, n = 4.
+(N) Relationship between acrophase of GCaMP6s signals in SCN CCK neurons and LMA onset from 12L:12D to DD (top panel, Pearson correlation, R2 = 0.95, p =
+5.07 3 107) and 20L:4D to DD (bottom panel, Pearson correlation, R2 = 0.98, p = 1.52 3 1013). 12L:12D to DD: CCK, n = 3; 20L:4D to DD: CCK, n = 4.
+ll
+Article
+2204
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 6 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+K
+L
+Figure 2. Circadian activity of CCK-neuron-deﬁcient mice under different photoperiods
+(A) A schematic diagram showing the bilateral injection of AAV-DIO-taCasp3-TEVp or AAV-DIO-EYFP into the SCN of CCK-IRES-Cre mice and wheel running
+behavior under different photoperiods.
+(B) Representative images showing the distributions of CCK neurons in the SCN of control and CCK-Casp3 mice. Scale bars, 100 mm.
+(C) The numbers of CCK neurons in the SCN: 1,149 ± 57.78 (mean ± SEM), n = 4 for control mice; 368.88 ± 156.18, n = 8 for CCK-Casp3 mice (***p < 0.001,
+unpaired Student’s t test).
+(D) Representative double-plotted actograms of wheel running activity in control and CCK-Casp3 mice. All mice were initially housed in 12L:12D and then
+transferred to constant darkness (DD).
+(E) No signiﬁcant difference in activity proﬁles were found in CCK-Casp3 compared with the control mice.
+(legend continued on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2205
+
+
+=== PAGE 7 ===
+(T = 23.22 ± 0.04 h) than control mice (T = 23.6 ± 0.07 h)
+(Figure 2F).
+We then examined the wheel running activities of CCK-Casp3
+mice under 20L:4D. Under such long-day conditions, the activity
+durations of control mice were compressed, with activity onset
+closer to activity offset. Interestingly, we found that the ablation
+of SCN CCK neurons led to a signiﬁcantly longer activity duration
+(alpha) compared with control mice under 20L:4D (Figure 2G).
+Speciﬁcally, the activity onset was advanced and the activity
+offset was delayed in CCK-Casp3 mice compared with control
+mice (Figures 2H and S4E). CCK-Casp3 mice appeared not to
+be able to entrain their activity onset to light-off and activity offset
+to light-on under long-day conditions. Overall, CCK-Casp3 mice
+showed decreased rhythmicity, and 2 out of 22 animals even
+lost rhythmicity (arrhythmic CCK-Casp3 mice) at the 4th week un-
+der 20L:4D (Figures S4C and S4D). Once released into DD, the
+compressed activity band of control mice slowly decompressed
+to a level comparable to that under 12L:12D, consistent with the
+notion that the SCN exhibits plasticity of circadian timing under
+seasonal change. In contrast, CCK-Casp3 mice showed more
+rapid recovery of activity patterns from an already less-com-
+pressed activity pattern (Figure 2I). The arrhythmic CCK-Casp3
+mice under 20L:4D remained arrhythmic under DD. The rhythmic
+CCK-Casp3 mice again showed a shortened free-running period
+(T = 23.38 ± 0.05 h) compared with control mice (T = 23.58 ± 0.06
+h) under DD (Figure 2F; Data S1). Furthermore, we examined the
+behavioral changes under 20L:4D in the mice in which the neuro-
+transmitter release in SCN CCK neurons was blocked by AAV-
+mediated expression of tetanus toxins (CCK-TeNT) (Figures 2J
+and S4J). Similarly, we found less compression of activity duration
+of CCK-TeNT mice under 20L:4D (Figures 2K and S4F) and more
+rapid decompression upon releasing into DD compared with con-
+trol mice (Figures 2L and S4I; Data S1). Under DD, free-running
+periods of CCK-TeNT mice were not signiﬁcantly different from
+wild-type (WT) mice (Figures S4G and S4H). Together, the
+circadian activities of the animals with impaired SCN CCK neuron
+functions showed less seasonal plasticity compared with the con-
+trol animals under long-day photoperiods.
+CCK neurons are necessary for circadian activity under
+constant light
+We measured the in vivo calcium activities of VIP and CCK neu-
+rons in the SCN, together with locomotor activity and body tem-
+perature in animals under LL (Figure 3A). We found that the cal-
+cium rhythm of VIP neurons was rapidly dampened under LL, as
+indicated by decreased RA and broadened peak width, consis-
+tent with previous reports26 (Figure 3B). However, the RA of cal-
+cium rhythms in CCK neurons also decreased, but reached a
+stable level, and the peak width of CCK neurons remained con-
+stant upon entry into LL (Figure 3B). The calcium activity of CCK
+neurons exhibited circadian rhythm free-running with a period
+longer than 24 h. The peak of calcium activity of CCK neurons
+was again phase-locked to the onset of locomotor activity and
+the rise of body temperature in mice under LL (Figures 3C and
+3D). We found that the rhythmicity of CCK neuron calcium activ-
+ities remained stable, while the rhythmicity of VIP neurons
+decreased from 12:12D to 20L:4D and was lost in LL (Figure 3E).
+We next tested the wheel running activities of CCK-neuron-
+deﬁcient mice under LL. We found that 26.3% of CCK-Casp3
+mice developed behavioral splitting, during which a short period
+component (22.68 ± 0.12 h) emerged from the long period
+component (24.41 ± 0.33 h) within an average of 4.8 days under
+LL (Figures 3F, S5A, and S5C; Data S1). Furthermore, 36.8% of
+CCK-Casp3 mice became arrhythmic immediately upon being
+transferred to LL from 12L:12D (Figures 3F, 3G, and 3H; Data
+S1). In contrast, the running wheel activities of control mice never
+split during the course of the experiment and only one animal
+became arrhythmic under LL (Figures 3G and S5B). Similarly,
+we found that the wheel running activities of 50% of CCK-
+TeNT mice rapidly became arrhythmic under LL conditions
+(Figures 3I–3K, S5E, and S5F; Data S1). Therefore, our results
+suggested that CCK neurons remained rhythmic and were
+crucial for maintaining circadian behavioral activities under LL
+conditions.
+CCK neuron activation induces phase advance
+To investigate the phase resetting ability of CCK neurons, we
+stimulated SCN CCK and VIP neurons using optogenetic manip-
+ulation in CCK-Cre and VIP-Cre mice expressing channel
+rhodopsin 2 (ChR2) under DD after release from 12L:12D (Fig-
+ure 4A). We found that the activation of CCK and VIP neurons
+in vivo increased FOS protein expression in the SCN. After 1 h
+of 4 Hz stimulation at CT14, FOS expression increased almost
+4-fold in the dorsal SCN but showed no difference in the ventral
+SCN compared with controls in CCK-ChR2 mice (Figure 4B).
+However, FOS expression increased both in the dorsal and
+(F) Free-running periods were shortened in CCK-Casp3 mice. DD entrained from 12L:12D: 23.6 ± 0.07 h in control mice, n = 7; 23.22 ± 0.04 h in CCK-Casp3 mice,
+n = 18. DD entrained from 20L:4D: 23.58 ± 0.06 h in control mice, n = 13; 23.38 ± 0.05 h in CCK-Casp3 mice, n = 20. (*p = 0.038, ***p < 0.001, two-way ANOVA with
+Scheffe post hoc test.)
+(G) Representative double-plotted actograms of wheel running activity in control and CCK-Casp3 mice. All mice were initially housed in 12L:12D, then transferred
+to 20L:4D, and ﬁnally released into constant darkness (DD).
+(H) Activity proﬁles of CCK-Casp3 mice showing advanced onset and delayed offset under 20L:4D (***p < 0.001, two-way ANOVA). Control mice, n = 13; CCK-
+Casp3 mice, n = 20.
+(I) Activity duration time (alpha) of CCK-Casp3 mice was lengthened compared with control mice under 20L:4D (*p < 0.05, **p < 0.01, ***p < 0.001 by two-way
+ANOVA with Tukey’s post hoc test). Error bars represent SEM. Animals same as (H).
+(J) A schematic diagram showing the bilateral injection of AAV-DIO-TeNT or AAV-DIO-EYFP into the SCN of CCK-IRES-Cre mice and their wheel running be-
+haviors under 20L:4D. Scale bars, 100 mm.
+(K) Activity proﬁles of CCK-TeNT mice showing advanced onset and delayed offset under 20L:4D (*p < 0.05; ***p < 0.001; n.s. is not signiﬁcant, p > 0.05 by two-
+way ANOVA). Control mice, n = 7; CCK-TeNT mice, n = 8.
+(L) Activity duration time (alpha) of CCK-TeNT mice was lengthened compared with control mice under 20L:4D (*p < 0.05, **p < 0.01, ***p < 0.001 by two-way
+ANOVA with Tukey’s post hoc test). Error bars represent SEM. Animals same as (K).
+ll
+Article
+2206
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 8 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+K
+(legend on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2207
+
+
+=== PAGE 9 ===
+ventral SCN compared with controls in VIP-ChR2 mice. In
+contrast with the result previously reported for VIP neurons,10
+we found that repeated stimulation of CCK neurons every 24 h
+failed to entrain stable 24-h locomotion and body temperature
+rhythms in DD (Figures 4C and S6A). It instead generated signif-
+icant phase advances at late subjective night and early subjec-
+tive day (CT18–CT5) as shown by the averaged phase response
+curve (Figures 4D and S6B). To further elaborate on this result,
+we measured the stable phase shift after single stimulation of
+CCK or VIP neurons at two circadian time points (CT14 and
+CT22, respectively) under DD transferred from 12L:12D, and
+we found that the stimulation of SCN CCK neurons could induce
+a stable phase advance at CT22 but no phase delay at CT14
+(Figures S6C and S6D). On the other hand, the stimulation of
+SCN VIP neurons could induce both a stable phase advance at
+CT22 and a phase delay at CT14 (Figures S6C and S6D). There-
+fore, CCK neuron stimulation can only advance the clock but not
+delay the clock, while VIP neuron stimulation can both delay and
+advance the clock.
+We next examined the phase shifting functions of CCK and VIP
+neuron activation under long-day photoperiods (20L:4D) and LL.
+We found that CCK neuron optogenetic activation elicited a
+phase advance at CT22 under both 20L:4D and 12L:12D condi-
+tions (Figures 4E, S7A, and S7C). However, VIP neuron activation
+exhibited a signiﬁcantly smaller phase delay at CT14 in DD en-
+trained under 20L:4D conditions compared with CT14 in DD en-
+trained under 12L:12D conditions (Figures 4F, S7B, and S7D).
+Under LL conditions, repeated activation of CCK neurons every
+24 h can stably entrain locomotor and temperature rhythms
+(Figures 4G, 4H, and S8C). Single stimulation of CCK or VIP neu-
+rons at CT14 and CT22 under LL further validated that only CCK
+neuron activation at CT22 can generate phase advance under LL
+to a level comparable with the phase advances generated by
+CCK neuron activation at CT22 in DD under 20L:4D and
+12L:12D conditions (Figures 4E, S8A, S8B, and S8D). Taken
+together, the activation of SCN CCK neurons can induce the sta-
+ble phase advance of a circadian clock regardless of photope-
+riods, while the phase-delaying effect of VIP neuron stimulation
+was signiﬁcantly weakened under long-day photoperiods and LL.
+To analyze the photoperiod-dependent impact on SCN by
+CCK and VIP neurons, we examined the responses of the Fos
+gene in SCN to CCK and VIP neuron activations by smFISH
+assay. We found that optogenetic stimulation of SCN CCK neu-
+rons at CT22 in mice entrained by 12L:12D activated the Fos
+expression in AVP, but not in VIP, neurons (Figures 4I and
+S6E). Under 20L:4D conditions, we found that the activation of
+CCK neurons at CT22 led to a similar increase of Fos expression
+in AVP neurons (Figures 4J, S7E, and S7F). Interestingly, CCK
+neuron activation led to additional VIP neuron activation under
+20L:4D compared with similar CCK neuron activation under
+12L:12D. In contrast, the stimulation of VIP neurons at CT14 acti-
+vated both CCK neurons and AVP neurons in the SCN under
+12L:12D (Figures 4I and 4J). However, the activation of VIP neu-
+rons at CT14 failed to induce Fos expression in either CCK or
+AVP neurons under 20L:4D (Figures 4J, S7E, and S7F). These re-
+sults are consistent with our observation that the effect exerted
+by VIP neurons on SCN was signiﬁcantly weakened, and the
+impact of CCK neurons on VIP neurons was strengthened, under
+long-day photoperiods.
+SCN CCK neurons inhibit light-induced phase delay
+To investigate the role of CCK neurons in the light entrainment
+pathway in comparison with VIP neurons, we ﬁrst measured
+the calcium activity responses of CCK and VIP neurons to light
+pulse in animals under DD after being entrained in 12L:12D.
+We found that the calcium activity of CCK neurons showed no
+immediate response upon light pulse at either CT14 or CT22 un-
+der DD, while VIP neurons exhibited an immediate increase in
+activity upon each light pulse at CT14 (Figures 5A, 5B, S9A,
+and S9B), indicating that CCK neurons are not directly light sen-
+sitive. However, a single light pulse under DD at CT14 resulted in
+the phase delay of CCK neuron calcium activity on the next day
+after light pulse (Figure 5A). Furthermore, the immediate phase
+delay by light pulse at CT14 is smaller in CCK neurons than in
+VIP neurons (Figure 5C). Together, the delayed response of
+CCK neuronal activity to light suggested that CCK neurons are
+indirectly affected by light via VIP neurons in the light entrainment
+pathway.
+Figure 3. Calcium activities of CCK and VIP neurons and circadian activities of CCK-neuron-deﬁcient mice under LL
+(A) Representative actograms showing the in vivo GCaMP6 signals (gray, double-plotted) of SCN CCK and VIP neurons overlaid with locomotor activity (LMA,
+green) and body temperature (Tb, orange) in mice upon entry into LL from 12L:12D.
+(B) Dynamic changes in RA (relative amplitude) and total peak width of GCaMP6 signals (W1 + W2) in SCN CCK (red) and VIP (blue) neurons upon entry into LL
+from 12L:12D (**p < 0.01, ***p < 0.001 by two-way ANOVA with Tukey’s post hoc test). CCK, n = 3; VIP, n = 2. Error bars represent SEM.
+(C) Dynamic changes in Dphase-LMA onset (LMA onset: acrophase) GCaMP6 signals in SCN CCK (red) and VIP (blue) neurons upon entry into LL from 12L:12D
+(***p < 0.001 by two-way ANOVA with Tukey’s post hoc test). CCK, n = 2; VIP, n = 2. Error bars represent SEM.
+(D) The average circadian proﬁles of calcium signals in SCN CCK (red) and VIP (blue) neurons under LL, with activity onset aligned (dash line). CCK, n = 2; VIP,
+n = 2.
+(E) The average periodograms of calcium signals of SCN CCK (top) and VIP (bottom) neurons under 12L:12D (black), 20L:4D (green), and LL (red). 12L:12D: CCK,
+n = 6; VIP, n = 6; 20L:4D: CCK, n = 5; VIP, n = 5; LL: CCK, n = 3; VIP, n = 2.
+(F) Representative double-plotted actograms of wheel running activity in control and CCK-Casp3 mice under LL transferred from 12L:12D.
+(G) The proportions and numbers of control (left) and CCK-Casp3 mice (right) displaying rhythmic (gray), splitting (red), and arrhythmic (orange) behaviors,
+respectively (p = 0.003 by Fisher’s exact test). Control mice, n = 13; CCK-Casp3 mice, n = 19.
+(H) The average periodograms of wheel running activities of control and CCK-Casp3 mice during days 7–13 in LL. Animals same as (G).
+(I) Representative double-plotted actogram of wheel running activities in control and CCK-TeNT mice under LL transferred from 12L:12D.
+(J) The proportions and numbers of control (left) and CCK-TeNT mice (right) displaying rhythmic (gray) and arrhythmic (orange) behaviors, respectively (p = 0.07 by
+Fisher’s exact test). Control mice, n = 7; CCK-TeNT mice, n = 8.
+(K) The average periodograms of wheel running activity of control and CCK-TeNT mice for days 7–13 in LL. Animals same as (J).
+ll
+Article
+2208
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 10 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+(legend on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2209
+
+
+=== PAGE 11 ===
+We next measured the phase response to light pulse in CCK-
+Casp3 mice. We found that the phase advance induced by a sin-
+gle light pulse at CT22 was abolished in CCK-Casp3 mice
+compared with control mice, while the phase delay at CT14
+was not signiﬁcantly different in CCK-Casp3 mice compared
+with control mice (Figures 5D and 5E). This result suggests that
+CCK neurons are necessary for phase advance at CT22 by light.
+Additionally, we found that there were no differences in negative
+masking in CCK-Casp3 mice compared with control mice (Fig-
+ure S9H). Next, we employed a chemogenetic strategy to
+temporally inhibit CCK neuronal activity 1 h prior to light expo-
+sure in CCK-Cre mice injected with AAVs encoding Cre-depen-
+dent engineered inhibitory Gi-coupled receptor (AAV-hSyn-DIO-
+hM4D(Gi)-EGFP), or a control ﬂuorophore, bilaterally into the
+SCN. We found that the inhibition of CCK neurons by cloza-
+pine-N-oxide (CNO) effectively increased the phase delay at
+CT14 by light (Figures 5F and 5G). In contrast, the inhibition of
+VIP neurons by CNO only decreased the phase delay by light
+at CT14 (Figures 5F and 5G), but had no signiﬁcant effect on
+the phase advance by light at CT22 (Figures S9F and S9G). Che-
+mogenetic inhibition of CCK or VIP neurons by CNO alone did
+not lead to any signiﬁcant phase shift at CT14 (Figures S9D
+and S9E). Combining all animals tested for light-induced phase
+shifts, we observed a negative correlation between phase delays
+at CT14 and phase advances at CT22. In particular, CCK neuron
+depletion or inhibition tends to increase the phase delay and
+decrease the phase advance by light, while VIP neuron inhibition
+has the opposite effect (Figure 5H). Finally, simultaneous opto-
+genetic stimulation of CCK neurons during the light pulse at
+CT14 effectively abolished the phase delay by light (Figures 5I,
+5J, S9I, and S9J). By smFISH assay, we found that such simul-
+taneous stimulation of CCK neurons and light exposure at
+CT14 signiﬁcantly reduced the light-induced Fos expression in
+VIP neurons compared with the SCN of mice exposed only to
+light at CT14 (Figure 5K). This result suggested a negative feed-
+back regulation from CCK neurons to VIP neurons in the light
+entrainment pathway of SCN. Together, we uncovered that
+SCN CCK neurons are necessary for the phase advance—and
+gate the phase delay—in the light entrainment pathway of circa-
+dian clocks.
+CCK neurons regulate the recovery speed of jet lag
+Given that the activity of CCK neurons tracks the onset of loco-
+motor activity under different photoperiods, we examined the
+response of CCK neurons to a sudden shift of the light-dark cycle
+in a 6-h phase advance modeling jet lag. By smFISH, we found
+that Fos expression in VIP and AVP neurons was rapidly
+phase-advanced, while Fos expression in CCK neurons was
+almost unchanged in the middle (day 3) of jet lag, compared
+with the beginning and end of jet lag (Figures 6A and S10A).
+The differential responses of AVP, VIP, and CCK neurons to jet
+lag may underlie the transient compression of the activity band
+during jet lag. By ﬁber photometry, we found that the calcium ac-
+tivity of CCK neurons shifted signiﬁcantly slower than that of VIP
+neurons during a 6-h advance jet lag (Figures 6B and 6C). For
+quantitative comparison between CCK and VIP neurons, we
+calculated the half of phase-shift value PS50
+27 and found that
+the PS50 of VIP neurons was signiﬁcantly lower than that of
+CCK neurons and that the rate of phase shift of CCK neurons
+was similar to the rate of phase shift of behavioral onset (Fig-
+ure 6D). This is also consistent with a previous study showing
+that the ventral SCN shifts faster than the dorsal SCN during
+jet lag.28
+We next examined whether the slow shifting nature of CCK
+neurons could be responsible for the delayed phase shift in
+circadian behaviors during jet lag. We found that chemogenetic
+inhibition of CCK neurons by CNO injection to the mice express-
+ing hm4Di in CCK neurons during the ﬁrst 2 days of phase shift
+can effectively speed up the phase shift of locomotor activity
+during 6-h phase advance of jet lag (Figures 6E, 6F, and
+Figure 4. Phase shift induced by optogenetic stimulation of SCN CCK and VIP neurons
+(A and B) Schematic showing the unilateral injection of the AAV-DIO-ChR2-EYFP or AAV-DIO-EYFP into the SCN of CCK-IRES-Cre and VIP-IRES-Cre mice.
+Representative images and quantiﬁcations showing optogenetic activation of CCK-ChR2 and VIP-ChR2 neurons increased FOS protein in the SCN. Control
+(CCK-EGFP) mice, n = 3; CCK-ChR2 mice, n = 8; control (VIP-EGFP) mice, n = 4; VIP-ChR2 mice, n = 7 (*p = 0.004, ***p < 0.001; n.s. not signiﬁcant, p > 0.05 by
+one-way ANOVA with Scheffe post hoc test).
+(C) Representative double-plotted actograms of body temperature upon repeated daily 1-h optogenetic stimulation (blue bar) of SCN CCK neurons in a free-
+running mouse under DD released from 12L:12D. Body temperature was scaled between 35C and 39C, and darker represents higher temperature.
+(D) The average phase response curves of CCK-ChR2 (red, n = 10) and control mice (black, n = 5) calculated from optogenetic stimulations in (A). The phase shift
+on the day after stimulation was calculated.
+(E) The phase shift of Tb (left) and LMA (right) at CT22 by optogenetic stimulation of SCN CCK neurons under different photoperiods. Animals under DD entrained
+from 12L:12D; control mice, n = 4; CCK-ChR2 mice, n = 11; animals under DD entrained from 20L:4D; control mice, n = 6; CCK-ChR2 mice, n = 5; animals under
+LL entrained from 12L:12D; control mice, n = 4; CCK-ChR2 mice, n = 5 (*p < 0.05; n.s. not signiﬁcant, p > 0.05 by two-way ANOVA with Scheffe post hoc test).
+(F) The phase shift of Tb (left) and LMA (right) at CT14 by optogenetic stimulation of SCN VIP neurons under different photoperiods. Animals under DD entrained
+from 12L:12D; control mice, n = 4; VIP-ChR2 mice, n = 5; animals under DD entrained from 20L:4D; control mice, n = 4; VIP-ChR2 mice, n = 5; animals under LL
+entrained from 12L:12D; control mice, n = 4; VIP-ChR2 mice, n = 3. (**p < 0.01; ***p < 0.001; n.s. not signiﬁcant, p > 0.05 by two-way ANOVA with Scheffe post
+hoc test).
+(G) Representative double-plotted actograms of body temperature upon repeated daily 1-h optogenetic stimulation (blue bar) of SCN CCK neurons in a free-
+running mouse under LL released from 12L:12D.
+(H) Daily body temperature onset showing daily stimulation in (E) entrained the body temperature of CCK-ChR2 but not in control mice. Control mice, n = 5; CCK-
+ChR2 mice, n = 7.
+(I) Quantiﬁcation of Fos-positive cells among Vip-, Cck-, Avp-positive cells (top left) after blue light stimulation of control and CCK-ChR2 mice at CT22 under DD
+entrained from 12L:12D (*p < 0.05; ***p < 0.001; n.s., not signiﬁcant, p > 0.05 by chi-squared test). The impact on SCN neurons in this experiment (top right).
+Quantiﬁcation of Fos-positive cells among Vip-, Cck-, Avp-positive cells (bottom left) after blue light stimulation of control and VIP-ChR2 mice at CT14 under DD
+entrained from 12L:12D (*p < 0.05; ***p < 0.001; n.s., not signiﬁcant, p > 0.05 by chi-squared test). The impact on SCN neurons in this experiment (bottom right).
+(J) Same as (I) after blue light stimulation of CCK-ChR2 mice at CT22 (top plane) and VIP-ChR2 mice (bottom plane) at CT14 under DD entrained from 20L:4D.
+ll
+Article
+2210
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 12 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+K
+(legend on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2211
+
+
+=== PAGE 13 ===
+S10B). The results of repeated experiments showed a signiﬁcant
+positive correlation (Figure 6G). We also found that, compared
+with controls, FOS protein expression of CCK-hm4Di mice
+signiﬁcantly decreased in the SCN after 1 h of CNO injection at
+ZT6 during a 6-h phase advance of jet lag (Figure S10C). Simi-
+larly, CCK-Casp3 mice showed signiﬁcantly shortened days to
+adapt to the change in the light-dark schedule in jet lag experi-
+ments (Figures 6H and 6I). This is consistent with our observation
+that CCK-Casp3 mice showed signiﬁcantly shorter free-running
+periods under DD. In fact, we found that PS50 is proportional to
+the free-running periods among the same group of animals
+tested for 12L:12D to DD transition and jet lag experiments,
+including both CCK-Casp3 and control mice, indicating that
+the shortened periods of CCK-Casp3 mice may underlie their
+rapid adaptation to phase-advancing jet lag (Figures 6J and
+6K). Therefore, we propose that the circadian rhythm in CCK
+neurons that typically shifts slowly under the gradual changes
+in photoperiod cannot adapt rapidly to the sudden changes of
+a light-dark schedule, resulting in jet lag. Together, our results
+suggested that CCK neuronal activity stores the information of
+previously adapted light-dark conditions, and the loss of function
+in CCK neurons thus speeds up the adaptation to new time
+zones during jet lag.
+DISCUSSION
+In this study, we investigated the functions of mouse SCN CCK
+neurons in the circadian clock. We showed that the calcium ac-
+tivity of SCN CCK neurons tracked the E behavioral activity onset
+and that the dysfunction of CCK neurons signiﬁcantly impaired
+circadian time keeping under long-day photoperiods and LL.
+We further demonstrated that the activation of these CCK neu-
+rons induced phase advances under different photoperiods
+and that CCK neurons antagonized VIP neurons in the light
+entrainment pathway. We found that the activation of CCK neu-
+rons by VIP neurons was diminished and that CCK neurons
+began activating rather than inhibiting VIP neurons under long-
+day photoperiods. Finally, we suggested that the slow adapta-
+tion of SCN CCK neurons under the sudden shift of day-night
+cycles underlies the phenomenon of jet lag. Thus, CCK neurons
+and their interactions with other SCN neurons may provide a
+neural basis for the robustness and plasticity of the circadian
+clock in mammals.
+Heterogeneous circadian functions of SCN neuronal
+subtypes
+As the central mammalian circadian clock, SCN contains many
+different neuronal subtypes. For many of these subtypes, their
+roles in daily timekeeping remain to be systematically examined.
+In this study, we have mainly investigated the functions of CCK
+neurons in contrast with VIP neurons. Our previous study re-
+vealed that VIP and CCK neurons can each be divided into
+further subtypes. VIP neurons consist of the Vip+/Nms+ subtype,
+with strong circadian rhythmicity, and Grp+/Vip+, with the stron-
+gest light responsiveness. Thus, the calcium activities of VIP
+neurons that we measured in this study can represent the com-
+posite activities of Vip+/Nms+ and Grp+/Vip+ subtypes. Similarly,
+CCK neurons consist of Cck+/C1ql3+ and Cck+/Bdnf+ subtypes.
+According to our scRNA-seq data, Cck+/C1ql3+ neurons consti-
+tute the majority of CCK neurons and may give rise to the rhyth-
+micity of calcium activity, with a delayed phase relative to other
+SCN neuronal subtypes. Interestingly, brain-derived neurotro-
+phic factor (BDNF) has been previously reported to regulate
+the phase shift by light pulse.29 Thus, the Cck+/Bdnf+ subtype
+could be responsible for the effects of CCK neurons in the light
+entrainment pathway that we observed in this study.
+AVP neurons and AVP neuropeptide signaling have also been
+suggested to play important roles in the SCN.13–15 When the
+intrinsic clocks or GABA transmission in AVP neurons were
+compromised, E and M activity peaks started to disasso-
+ciate—even under 12L:12D condition.13,30,31 It was reported
+that the calcium activities in AVP neurons peak at dawn,30
+Figure 5. The functions of SCN CCK neurons in light entrainment
+(A) Representative actograms showing the in vivo calcium signals (gray, double-plotted) of SCN CCK (left) and VIP (right) neurons responding to 30 min light pulse
+(LP) at CT14 in mice under DD entrained from 12L:12D.
+(B) Dynamic changes in calcium signals in SCN CCK (red) and VIP (blue) neurons upon 30 min LP at CT14 (***p < 0.001; n.s., not signiﬁcant, p > 0.05 by unpaired
+Student’s t test). CCK-GCaMP6s mice, n = 5 and VIP-GCaMP6s mice, n = 3. Error bars represent SEM.
+(C) The phase shift by LP induced at CT14 in CCK-GCaMP6s and VIP-GCaMP6s mice (*p < 0.05, unpaired Student’s t test). Animals same as (B).
+(D) Representative double-plotted actograms of wheel running activity of control and CCK-Casp3 mice exposed to 1 h light pulse (LP) under DD at 3 different time
+points in a mouse free running in DD entrained from 12L:12D.
+(E) The phase shift by LP induced at CT22–CT1 and CT14–CT17 in CCK-Casp3 and control mice (***p < 0.001 by unpaired Student’s t test). Control mice, n = 6;
+CCK-Casp3 mice, n = 12.
+(F) Representative double-plotted actograms of wheel running activity of control, CCK-hm4Di, and VIP-hm4Di mice. All mice were given 1 mg/kg CNO and 1 h
+light pulse (LP) at CT14.
+(G) Phase shift by CNO and LP induced at CT14 in control, CCK-hm4Di, and VIP-hm4Di mice. Control mice, n = 7; CCK-hm4Di mice, n = 6; VIP-hm4Di mice, n = 5
+(**p < 0.01; ***p < 0.001 by one-way ANOVA with Tukey’s post hoc test).
+(H) Correlation between phase delay and phase advance (Pearson correlation, R = 0.42, p = 0.01). Animals same as (G).
+(I) Representative double-plotted actograms of body temperature (Tb) upon 1 h optogenetic (blue light) stimulation with simultaneous light pulse (BL + LP) or 1 h
+light pulse (LP) only at CT14.
+(J) Phase shift of Tb by LP at CT14 in control and CCK-ChR2 mice exposed to BL + LP and LP only. Control mice, n = 6; CCK-ChR2 mice, n = 8 (***p < 0.001; n.s.,
+not signiﬁcant, p > 0.05 by paired Student’s t test).
+(K) Representative smFISH images (left) of Fos co-labeled with SCN neuronal subtype markers, including Cck, Vip, and Avp genes after optogenetic (blue light)
+stimulation of control and CCK-ChR2 mice exposed to light pulse at CT14 under DD entrained from 12L:12D. Scale bars, 100 mm. Enlarged view size, 62.5 mm 3
+62.5 mm. Quantiﬁcation of Fos-positive cells among Vip-, Cck-, and Avp-positive cells (middle) (***p < 0.001; n.s., not signiﬁcant, p > 0.05 by chi-squared test).
+SCN functional connectivity inferred from this experiment (right).
+ll
+Article
+2212
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 14 ===
+A
+B
+C
+D
+F
+E
+G
+H
+I
+J
+K
+(legend on next page)
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2213
+
+
+=== PAGE 15 ===
+consistent with the peak time of Fos expression in the AVP neu-
+rons that we measured under 12L:12D conditions in our study. In
+contrast, the calcium activities in CCK neurons peaked before
+dusk and were phase-locked with activity onset. Furthermore,
+we found that CCK-Casp3 mice showed normal circadian
+behavior under 12L:12D but decompressed behavior only under
+long-day conditions. When compared with AVP neurons, CCK
+neurons seem to be more important for the coupling between
+the E and M oscillators, especially in long-day photoperiods
+when SCN neurons are prone to desynchronization. The circa-
+dian behaviors of CCK-Casp3 and CCK-TeNT mice became
+more variable under LL as some animals showed arrhythmicity,
+some showed splitting behavior, and others showed normal
+rhythmicity. This observation further supports our conclusion
+that CCK neurons are crucial for the robustness of the SCN.
+The SCN neural network and its plasticity
+The SCN neural network of heterogeneous neuronal subtypes is
+responsible for converting light information into rhythmic behav-
+iors. In this network, SCN VIP neurons are believed to be crucial
+for the light entrainment of circadian clocks.10,26,32 The calcium
+activities of VIP neurons were light responsive, as shown in this
+study and previous studies.12,26 In contrast, we found that the
+light pulse in early subjective night did not immediately elevate
+the calcium activities in CCK neurons. However, direct optoge-
+netic stimulation of VIP neurons can activate CCK neurons,
+and the calcium rhythm of CCK neurons still displayed phase
+shift on the day after light pulse. These results indicated that
+CCK neurons were downstream of VIP neurons and that the
+response of CCK neurons to VIP neurons is likely weak, such
+that only artiﬁcial activation of VIP neurons by high-frequency
+optogenetic stimulation can activate Fos expression in CCK neu-
+rons. Our manipulation of CCK neurons by optogenetics or che-
+mogenetics paired with a light pulse affected the phase shift of
+circadian behavior, suggesting that slow-responding CCK neu-
+rons may be blocking the phase delay of the light pulse by inhib-
+iting VIP neuron activation. Although CCK neurons are not light-
+activated, it has been suggested that SCN CCK neurons receive
+inputs from several brain regions involved in non-photic path-
+ways.33 Thus, our study may provide a potential mechanism
+for non-photic entrainment of circadian clocks and the interac-
+tion between photic and non-photic pathways. The mutual
+coupling between VIP and CCK neurons can be mediated by
+various neuropeptides, including VIP, CCK, BDNF, and prokine-
+ticin 2 (PROK2), based on the expression of the genes coding for
+these neuropeptides and their receptors in SCN neuronal sub-
+types.25 Previously, Hannibal et al. reported that mice lacking
+the CCK gene (CCK-null) exhibit a circadian rhythm phenotype
+comparable to that of WT controls.34 In this study, our targeted
+deletion of CCK neurons not only abolished CCK gene expres-
+sion but also removed all cellular signaling outputs and inputs
+mediated by CCK neurons in the SCN network. Thus, the differ-
+ences in phenotypes between our CCK-neuron-deleted mice
+and CCK-null mice suggested that neuronal mechanisms other
+than CCK neuropeptide signaling may be responsible for the
+circadian functions of CCK neurons identiﬁed in our study.
+In addition to neuropeptide signaling, neurotransmitter GABA
+could also be involved in the coupling of SCN neurons. In SCN,
+the action of GABA signaling can be both inhibitory and excit-
+atory, depending on intra-cellular chloride concentration in the
+recipient neurons.21 The negative feedback interaction between
+VIP and CCK neurons found in our study is reminiscent of GABA-
+mediated asymmetric connectivity between core and shell
+subregions of the SCN, proposed previously.28 The differences
+in results we obtained for CCK neuron ablation by caspase
+versus CCK neuron silencing by TeNT hinted that CCK neurons
+may use multiple signals, considering that GABA-mediating
+signaling was more abrogated with CCK-TeNT silencing. Finally,
+we noted that the active time window of CCK neurons in subjec-
+tive day coincides with the ‘‘dead zone’’ of the phase response
+curve during which the circadian clock showed no phase shift
+by light. Therefore, the negative feedback loop of VIP and CCK
+neurons may contribute to the gating of the response of the
+circadian clock to external light at speciﬁc times of day.
+As the main environmental factor deﬁning seasons, light also
+has a destabilizing effect on SCN synchrony under long-day
+photoperiods24 and LL.23 This desynchronization could be due
+to the increased GABA excitation18 and the elevated VIP
+Figure 6. CCK neurons regulate the rate of activity onset in 6-h phase advance jet lag
+(A) Schematic diagram showing 6 time points of sampling on the third day of 6-h phase advance jet lag paradigm (top plane). Quantiﬁcation of Fos+ neurons in
+SCN Cck+, Vip+, and Avp+ neurons from mice on the 3rd day of 6-h phase advance jet lag paradigm (bottom plane). One mouse for each circadian time point.
+(B) Representative actograms showing the in vivo calcium signals (gray, double-plotted) of SCN CCK and VIP neurons overlaid with locomotor activity (LMA,
+green) and body temperature (Tb, orange) in actogram during 6-h advance jet lag model.
+(C) Dynamic changes in the phases of calcium signals in CCK and VIP neurons, together with Tb and LMA onset and offset time. Error bars represent SEM.
+(D) The jet lag PS50 of the phases of calcium signals in CCK and VIP neurons, together with Tb and LMA daily onset and offset time. CCK-GCaMP6s mice, n = 3;
+VIP-GCaMP6s mice, n = 3 (***p < 0.001 by one-way ANOVA with Tukey’s post hoc test).
+(E) Representative double-plotted actograms of wheel running activities of control and CCK-hm4Di mice during 6-h phase advance jet lag model. All mice were
+given 1 mg/kg CNO at ZT6 before light-off during 6-h phase advance jet lag.
+(F) Dynamic changes in the activity onset of control (CCK-EYFP) and CCK-hm4Di mice (*p < 0.05; **p < 0.01; ***p < 0.001 by two-way ANOVA with Scheffe post
+hoc test). The jet lag PS50 of the activity onset of control and CCK-hm4Di mice. Control mice injected with CNO, n = 6; CCK-hm4Di mice injected with CNO, n = 12,
+CCK-hm4Di mice injected with saline, n = 5 (***p < 0.001 by one-way ANOVA with Scheffe post hoc test). Error bars represent SEM.
+(G) Correlation between PS50 in the ﬁrst and second jet lag experiments of control mice injected with CNO, CCK-hm4Di mice injected with saline, and CCK-hm4Di
+mice injected with CNO (Pearson correlation, R = 0.814, p = 2.3 3 106).
+(H) Representative double-plotted actograms of wheel running activity of control and CCK-Casp3 mice during 6-h phase advance jet lag model.
+(I) Dynamic changes in the activity onset of control and CCK-Casp3 mice (*p < 0.05 by two-way ANOVA with Tukey’s post hoc test). The jet lag PS50 of the activity
+onset of control and CCK-Casp3 mice. Control mice, n = 7; CCK-Casp3 mice, n = 9 (*p < 0.05 by one-way ANOVA with Tukey’s post hoc test).
+(J) Correlation between the ﬁrst jet lag PS50 and free-running periods in control and CCK-Casp3 mice (Pearson correlation, R = 0.779, p = 0.0003).
+(K) Correlation between PS50 in the ﬁrst and second jet lag experiments of control and CCK-Casp3 mice (Pearson correlation, R = 0.923, p = 3.5 3 107).
+ll
+Article
+2214
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 16 ===
+signaling.35 Neuropeptide switching has also been reported to
+contribute to the photoperiodism in mammals,16 but we did not
+observe signiﬁcant changes in Vip, Cck, or Avp gene expression
+under long-day photoperiods in our smFISH analysis. Compared
+with CCK neurons, VIP neurons are more affected by long-day
+periods, as indicated by the increased basal level and reduced
+RA of circadian calcium activity and Fos expression patterns un-
+der 20L:4D. This result may explain why long periods of light
+blocked VIP-neuron-induced resetting but not CCK-neuron-
+induced resetting. This is also consistent with the decreased
+phase shifting effect of light under long-day photoperiods re-
+ported previously.36 In comparison, the stimulation of CCK neu-
+rons with less-affected calcium activities can still generate phase
+shifts under LL. The CCK-neuron-induced increase of Fos
+expression in VIP neurons under 20L:4D may contribute to the
+elevated calcium and Fos expression in VIP neurons—and the
+loss of resetting by VIP neurons. Interestingly, it was reported
+that VIP knockout mice showed stronger rhythmic activity under
+LL,35 whereas we found that SCN CCK-neuron-deﬁcient mice
+failed to maintain rhythmic behaviors under LL, again suggesting
+the opposite roles of CCK and VIP neurons in the SCN.
+E and M oscillator model
+Our study allowed us to shed new light on the E and M oscillator
+model proposed by Pittendrigh and Daan in 1976. In their original
+model, E and M oscillators tracked E activity onset and M activity
+offset, respectively, in nocturnal animals. In our analysis of Fos
+expression, AVP neurons seem to track the M-peak and CCK
+neurons track the E-peak, with VIP neurons in between. The
+phase delay of CCK neurons relative to VIP and AVP neurons
+could be due to the longer intrinsic periods of CCK neurons, as
+the deletion of CCK neurons shortened the free-running periods
+of the animals. Additional mechanisms, such as neuropeptide
+signaling, may further contribute to the diversiﬁcation of activity
+rhythms across the neuronal subtypes in mammalian pace-
+makers, as it does in Drosophila.37,38 The E and M model also
+predicted that the E and M oscillators decelerate and accelerate
+the clock, respectively. In contrast with VIP neurons, the activa-
+tion of CCK neurons speciﬁcally generated phase advance in
+late subjective night instead of phase delay in early subjective
+night, suggesting that VIP and CCK neurons may account for
+the delay and advance portions of the phase response curve,
+respectively. Furthermore, the E and M model assumed mutual
+coupling between E and M oscillators. Our results suggest a
+negative feedback loop between VIP and CCK neurons. Finally,
+in the E and M model, the phase relationship between E and M
+oscillators changes according to seasons and is accompanied
+by changes in their coupling strength. Indeed, we found that
+the activation of CCK neurons by VIP neurons decreased, while
+the signaling from CCK to VIP neurons switched sign from inhi-
+bition
+to
+excitation
+under
+long-day
+photoperiods.
+Taken
+together, we found that the mutual coupling of VIP and CCK neu-
+rons is largely consistent with the E and M model, but other SCN
+neuronal subtypes still need to be included in the model, and
+additional experiments are required to substantiate this model
+in the future.
+Among the clock neurons in Drosophila, the M cells expressing
+pigment-dispersing factor (PDF) in small ventral lateral neurons
+(sLNv) and the E cells in dorsal lateral neurons (LNd) have been
+identiﬁed.4,5 Furthermore, E cells were shown to express a
+PDF receptor.39 According to our scRNA-seq data, SCN CCK
+neurons also expressed VIPR2, the receptor for VIP, indicating
+that the signaling pathway from VIP to CCK neurons in the
+SCN resembles the PDF signaling from M cells to E cells in ﬂies.
+The phase relationship between the M cells and E cells encodes
+for seasonality in Drosophila.40 Similarly, the circadian phases in
+both calcium activity and Fos gene expression of VIP, CCK, and
+AVP neurons encode the seasonal information in mice, with AVP
+and CCK neurons aligning with dawn and dusk, respectively. In
+ﬂies, it was proposed that M cells oscillate in DD while E cells
+oscillate in LL, with E cells dominating over M cells in long-day
+photoperiods.41 SCN CCK neurons continue to function in
+long-day photoperiods and LL, suggesting that SCN CCK neu-
+rons may function as the tentative E cells in ﬂies. Whether SCN
+VIP or AVP neurons function like M cells requires further studies.
+In summary, the mammalian circadian system in the SCN, con-
+sisting of VIP, CCK, and AVP neurons, appears to share similar-
+ities with the clock neuron system in ﬂies, suggesting the neural
+mechanisms for seasonal plasticity are potentially conserved
+across evolution.
+STAR+METHODS
+Detailed methods are provided in the online version of this paper
+and include the following:
+d KEY RESOURCES TABLE
+d RESOURCE AVAILABILITY
+B Lead contact
+B Materials availability
+B Data and code availability
+d EXPERIMENTAL MODEL AND SUBJECT DETAILS
+B Animals
+d METHOD DETAILS
+B Viruses
+B Virus injection and stereotaxic surgery
+B Fiber photometry recordings
+B Fiber photometry data analysis
+B Optogenetic manipulations and behavior rhythm re-
+cordings
+B Body temperature (Tb) and locomotor activity (LMA)
+analyses
+B SmFISH
+B Immunohistochemistry
+B CNO administration
+B Wheel running behavior analyses
+d QUANTIFICATION AND STATISTICAL ANALYSIS
+SUPPLEMENTAL INFORMATION
+Supplemental information can be found online at https://doi.org/10.1016/j.
+neuron.2023.04.016.
+ACKNOWLEDGMENTS
+This work was supported by the National Science and Technology Innovation
+2030 grant (no. 2021ZD0200204), National Natural Science Foundation of
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2215
+
+
+=== PAGE 17 ===
+China grants (nos. 31861143035 and 32100932), Shanghai Municipal Science
+and Technology Major Project grant (no. 2018SHZDZX05), Strategic Priority
+Research
+Program
+of
+Chinese
+Academy
+of
+Sciences
+grant
+(no.
+XDB32040104), and the Shanghai Post-doctoral Excellence Program (grant
+no. 2021398). We would like to thank Drs. Xiaohong Xu and Yangang Sun
+(Institute of Neuroscience, Chinese Academy of Sciences) for helpful
+discussions.
+AUTHOR CONTRIBUTIONS
+Design of the study and scientiﬁc direction, J.Y.; smFISH, D.M.; ﬁber photom-
+etry and telemetry, Y.X.; functional and behavioral analysis, L.X.; data analysis,
+interpretation, and generation of ﬁgures, L.X., Y.X., and D.M.; animal breeding
+and handling, J.C., K.S., and Q.Y.; writing, reviewing, and editing the manu-
+script, J.Y., L.X., and Y.X.; funding, J.Y. and D.M.
+DECLARATION OF INTERESTS
+The authors declare no competing interests.
+INCLUSION AND DIVERSITY
+We support inclusive, diverse, and equitable conduct of research.
+Received: January 6, 2023
+Revised: March 9, 2023
+Accepted: April 14, 2023
+Published: May 11, 2023
+REFERENCES
+1. Takahashi, J.S. (2017). Transcriptional architecture of the mammalian
+circadian clock. Nat. Rev. Genet. 18, 164–179. https://doi.org/10.1038/
+nrg.2016.150.
+2. Aschoff, J.A.A.-J. (1966). Circadian activity pattern with two peaks.
+Ecology 47, 657–662. https://doi.org/10.2307/1933949.
+3. Pittendrigh, C.S., and Daan, S. (1976). A functional analysis of circadian
+pacemakers in nocturnal rodents. V. Pacemaker structure: a clock for all
+seasons. J. Comp. Physiol. 106, 333–355. https://doi.org/10.1007/
+BF01417860.
+4. Stoleru, D., Peng, Y., Agosto, J., and Rosbash, M. (2004). Coupled oscil-
+lators control morning and evening locomotor behaviour of Drosophila.
+Nature 431, 862–868. https://doi.org/10.1038/nature02926.
+5. Grima, B., Che´ lot, E., Xia, R., and Rouyer, F. (2004). Morning and evening
+peaks of activity rely on different clock neurons of the Drosophila brain.
+Nature 431, 869–873. https://doi.org/10.1038/nature02935.
+6. Helfrich-Fo¨ rster, C. (2009). Does the morning and evening oscillator model
+ﬁt better for ﬂies or mice? J. Biol. Rhythms 24, 259–270. https://doi.org/10.
+1177/0748730409339614.
+7. Moore, R.Y., and Eichler, V.B. (1972). Loss of a circadian adrenal cortico-
+sterone rhythm following suprachiasmatic lesions in the rat. Brain Res. 42,
+201–206. https://doi.org/10.1016/0006-8993(72)90054-6.
+8. Hastings, M.H., Maywood, E.S., and Brancaccio, M. (2018). Generation of
+circadian rhythms in the suprachiasmatic nucleus. Nat. Rev. Neurosci. 19,
+453–469. https://doi.org/10.1038/s41583-018-0026-z.
+9. Paul, S., Hanna, L., Harding, C., Hayter, E.A., Walmsley, L., Bechtold, D.A.,
+and Brown, T.M. (2020). Output from VIP cells of the mammalian central
+clock regulates daily physiological rhythms. Nat. Commun. 11, 1453.
+https://doi.org/10.1038/s41467-020-15277-x.
+10. Mazuski, C., Abel, J.H., Chen, S.P., Hermanstyne, T.O., Jones, J.R.,
+Simon, T., Doyle, F.J., 3rd, and Herzog, E.D. (2018). Entrainment of circa-
+dian rhythms depends on ﬁring rates and neuropeptide release of VIP SCN
+neurons. Neuron 99. 555–563.e5. https://doi.org/10.1016/j.neuron.2018.
+06.029.
+11. Aton, S.J., Colwell, C.S., Harmar, A.J., Waschek, J., and Herzog, E.D.
+(2005). Vasoactive intestinal polypeptide mediates circadian rhythmicity
+and synchrony in mammalian clock neurons. Nat. Neurosci. 8, 476–483.
+https://doi.org/10.1038/nn1419.
+12. Patton, A.P., Edwards, M.D., Smyllie, N.J., Hamnett, R., Chesham, J.E.,
+Brancaccio, M., Maywood, E.S., and Hastings, M.H. (2020). The VIP-
+VPAC2 neuropeptidergic axis is a cellular pacemaking hub of the supra-
+chiasmatic nucleus circadian circuit. Nat. Commun. 11, 3394. https://
+doi.org/10.1038/s41467-020-17110-x.
+13. Mieda, M., Ono, D., Hasegawa, E., Okamoto, H., Honma, K.-I., Honma, S.,
+and Sakurai, T. (2015). Cellular clocks in AVP neurons of the SCN are crit-
+ical for interneuronal coupling regulating circadian behavior rhythm.
+Neuron 85, 1103–1116. https://doi.org/10.1016/j.neuron.2015.02.005.
+14. Yamaguchi, Y., Suzuki, T., Mizoro, Y., Kori, H., Okada, K., Chen, Y., Fustin,
+J.M., Yamazaki, F., Mizuguchi, N., Zhang, J., et al. (2013). Mice genetically
+deﬁcient in vasopressin V1a and V1b receptors are resistant to jet lag.
+Science 342, 85–90. https://doi.org/10.1126/science.1238599.
+15. Shan, Y., Abel, J.H., Li, Y., Izumo, M., Cox, K.H., Jeong, B., Yoo, S.H.,
+Olson, D.P., Doyle, F.J., 3rd, and Takahashi, J.S. (2020). Dual-color sin-
+gle-cell imaging of the suprachiasmatic nucleus reveals a circadian role
+in network synchrony. Neuron 108. 164–179.e7. https://doi.org/10.1016/
+j.neuron.2020.07.012.
+16. Porcu, A., Nilsson, A., Booreddy, S., Barnes, S.A., Welsh, D.K., and Dulcis,
+D. (2022). Seasonal changes in day length induce multisynaptic neuro-
+transmitter switching to regulate hypothalamic network activity and
+behavior. Sci. Adv. 8, eabn9867. https://doi.org/10.1126/sciadv.abn9867.
+17. Evans, J.A., Leise, T.L., Castanon-Cervantes, O., and Davidson, A.J.
+(2013). Dynamic interactions mediated by nonredundant signaling mech-
+anisms couple circadian clock neurons. Neuron 80, 973–983. https://doi.
+org/10.1016/j.neuron.2013.08.022.
+18. Farajnia, S., van Westering, T.L.E., Meijer, J.H., and Michel, S. (2014).
+Seasonal induction of GABAergic excitation in the central mammalian
+clock. Proc. Natl. Acad. Sci. USA 111, 9627–9632. https://doi.org/10.
+1073/pnas.1319820111.
+19. Myung, J., Hong, S., DeWoskin, D., De Schutter, E., Forger, D.B., and
+Takumi, T. (2015). GABA-mediated repulsive coupling between circadian
+clock neurons in the SCN encodes seasonal time. Proc. Natl. Acad. Sci.
+USA 112, E3920–E3929. https://doi.org/10.1073/pnas.1421200112.
+20. DeWoskin, D., Myung, J., Belle, M.D.C., Piggins, H.D., Takumi, T., and
+Forger, D.B. (2015). Distinct roles for GABA across multiple timescales
+in mammalian circadian timekeeping. Proc. Natl. Acad. Sci. USA 112,
+E3911–E3919. https://doi.org/10.1073/pnas.1420753112.
+21. Rohr, K.E., Pancholi, H., Haider, S., Karow, C., Modert, D., Raddatz, N.J.,
+and Evans, J. (2019). Seasonal plasticity in GABA(A) signaling is necessary
+for restoring phase synchrony in the master circadian clock network. eLife
+8. https://doi.org/10.7554/eLife.49578.
+22. Inagaki, N., Honma, S., Ono, D., Tanahashi, Y., and Honma, K. (2007).
+Separate oscillating cell groups in mouse suprachiasmatic nucleus couple
+photoperiodically to the onset and end of daily activity. Proc. Natl. Acad.
+Sci. USA 104, 7664–7669. https://doi.org/10.1073/pnas.0607713104.
+23. Ohta, H., Yamazaki, S., and McMahon, D.G. (2005). Constant light de-
+synchronizes mammalian clock neurons. Nat. Neurosci. 8, 267–269.
+https://doi.org/10.1038/nn1395.
+24. Buijink, M.R., Almog, A., Wit, C.B., Roethler, O., Olde Engberink, A.H.O.,
+Meijer, J.H., Garlaschelli, D., Rohling, J.H.T., and Michel, S. (2016).
+Evidence for weakened intercellular coupling in the mammalian circadian
+clock under long photoperiod. PLoS One 11, e0168954. https://doi.org/
+10.1371/journal.pone.0168954.
+25. Wen, S., Ma, D., Zhao, M., Xie, L., Wu, Q., Gou, L., Zhu, C., Fan, Y., Wang,
+H., and Yan, J. (2020). Spatiotemporal single-cell analysis of gene expres-
+sion in the mouse suprachiasmatic nucleus. Nat. Neurosci. 23, 456–467.
+https://doi.org/10.1038/s41593-020-0586-x.
+26. Jones, J.R., Simon, T., Lones, L., and Herzog, E.D. (2018). SCN VIP neu-
+rons are essential for normal light-mediated resetting of the circadian
+ll
+Article
+2216
+Neuron 111, 2201–2217, July 19, 2023
+
+
+=== PAGE 18 ===
+system. J. Neurosci. 38, 7986–7995. https://doi.org/10.1523/JNEUROSCI.
+1322-18.2018.
+27. Kiessling, S., Eichele, G., and Oster, H. (2010). Adrenal glucocorticoids
+have a key role in circadian resynchronization in a mouse model of jet
+lag. J. Clin. Invest. 120, 2600–2609. https://doi.org/10.1172/JCI41192.
+28. Albus, H., Vansteensel, M.J., Michel, S., Block, G.D., and Meijer, J.H.
+(2005). A GABAergic mechanism is necessary for coupling dissociable
+ventral and dorsal regional oscillators within the circadian clock. Curr.
+Biol. 15, 886–893. https://doi.org/10.1016/j.cub.2005.03.051.
+29. Liang, F.Q., Allen, G., and Earnest, D. (2000). Role of brain-derived neuro-
+trophic factor in the circadian regulation of the suprachiasmatic pace-
+maker by light. J. Neurosci. 20, 2978–2987. https://doi.org/10.1523/
+JNEUROSCI.20-08-02978.2000.
+30. Maejima, T., Tsuno, Y., Miyazaki, S., Tsuneoka, Y., Hasegawa, E., Islam,
+M.T., Enoki, R., Nakamura, T.J., and Mieda, M. (2021). GABA from vaso-
+pressin neurons regulates the time at which suprachiasmatic nucleus mo-
+lecular clocks enable circadian behavior. Proc. Natl. Acad. Sci. USA 118.
+https://doi.org/10.1073/pnas.2010168118.
+31. Mieda, M., Okamoto, H., and Sakurai, T. (2016). Manipulating the cellular
+circadian period of arginine vasopressin neurons alters the behavioral
+circadian period. Curr. Biol. 26, 2535–2542. https://doi.org/10.1016/j.
+cub.2016.07.022.
+32. Todd, W.D., Venner, A., Anaclet, C., Broadhurst, R.Y., De Luca, R.,
+Bandaru, S.S., Issokson, L., Hablitz, L.M., Cravetchi, O., Arrigoni, E.,
+et al. (2020). Suprachiasmatic VIP neurons are required for normal circa-
+dian rhythmicity and comprised of molecularly distinct subpopulations.
+Nat. Commun. 11, 4410. https://doi.org/10.1038/s41467-020-17197-2.
+33. Yuan, X.S., Wei, H.H., Xu, W., Wang, L., Qu, W.M., Li, R.X., and Huang,
+Z.L. (2018). Whole-brain monosynaptic afferent projections to the chole-
+cystokinin neurons of the suprachiasmatic nucleus. Front. Neurosci. 12,
+807. https://doi.org/10.3389/fnins.2018.00807.
+34. Hannibal, J., Hundahl, C., Fahrenkrug, J., Rehfeld, J.F., and Friis-Hansen,
+L. (2010). Cholecystokinin (CCK)-expressing neurons in the suprachias-
+matic nucleus: innervation, light responsiveness and entrainment in
+CCK-deﬁcient mice. Eur. J. Neurosci. 32, 1006–1017. https://doi.org/10.
+1111/j.1460-9568.2010.07385.x.
+35. An, S., Harang, R., Meeker, K., Granados-Fuentes, D., Tsai, C.A., Mazuski,
+C., Kim, J., Doyle, F.J., Petzold, L.R., and Herzog, E.D. (2013). A neuro-
+peptide speeds circadian entrainment by reducing intercellular synchrony.
+Proc. Natl. Acad. Sci. USA 110, E4355–E4361. https://doi.org/10.1073/
+pnas.1307088110.
+36. VanderLeest, H.T., Rohling, J.H.T., Michel, S., and Meijer, J.H. (2009).
+Phase shifting capacity of the circadian pacemaker determined by the
+SCN neuronal network organization. PLoS One 4, e4976. https://doi.org/
+10.1371/journal.pone.0004976.
+37. Liang, X., Holy, T.E., and Taghert, P.H. (2017). A series of suppressive sig-
+nals within the Drosophila circadian neural circuit generates sequential
+daily
+outputs.
+Neuron
+94.
+1173–1189.e4.
+https://doi.org/10.1016/j.
+neuron.2017.05.007.
+38. Liang, X., Holy, T.E., and Taghert, P.H. (2016). Synchronous Drosophila
+circadian pacemakers display nonsynchronous Ca2+ rhythms in vivo.
+Science 351, 976–981. https://doi.org/10.1126/science.aad3997.
+39. Lear, B.C., Zhang, L., and Allada, R. (2009). The neuropeptide PDF acts
+directly on evening pacemaker neurons to regulate multiple features of
+circadian behavior. PLoS Biol. 7, e1000154. https://doi.org/10.1371/jour-
+nal.pbio.1000154.
+40. Stoleru, D., Nawathean, P., Ferna´ ndez, M.P., Menet, J.S., Ceriani, M.F.,
+and Rosbash, M. (2007). The Drosophila circadian network is a seasonal
+timer. Cell 129, 207–219. https://doi.org/10.1016/j.cell.2007.02.038.
+41. Cusumano, P., Klarsfeld, A., Che´ lot, E., Picot, M., Richier, B., and Rouyer,
+F. (2009). PDF-modulated visual inputs and cryptochrome deﬁne diurnal
+behavior in Drosophila. Nat. Neurosci. 12, 1431–1437. https://doi.org/10.
+1038/nn.2429.
+42. Schmid, B., Helfrich-Fo¨ rster, C., and Yoshii, T. (2011). A new ImageJ plug-
+in ‘‘ActogramJ’’ for chronobiological analyses. J. Biol. Rhythms 26,
+464–467. https://doi.org/10.1177/0748730411414264.
+ll
+Article
+Neuron 111, 2201–2217, July 19, 2023
+2217
+
+
+=== PAGE 19 ===
+STAR+METHODS
+KEY RESOURCES TABLE
+RESOURCE AVAILABILITY
+Lead contact
+Further information and requests for resources and reagents should be directed to and will be fulﬁlled by the lead contact, Dr. Jun Yan
+(junyan@ion.ac.cn).
+REAGENT or RESOURCE
+SOURCE
+IDENTIFIER
+Antibodies
+Rabbit anti FOS
+Cell Signaling Technology
+Cat. No. 2250; RRID: AB_2247211
+Bacterial and virus strains
+AAV2/9-EF1a-DIO-GCaMP6s-P2A-nls-
+tdTomato
+Obio Technology Co, Shanghai
+N/A
+AAV2/9-hSyn-DIO-TeNT-P2A-EGFP-
+WPRE-pA
+BrainVTA, Co, Wuhan
+Cat. No. PT2697
+AAV2/9-EF1a-DIO-EYFP-WPRE-pA
+Taitool Bioscience, Co, Shanghai
+Cat. No. S0196
+AAV2/9-CAG-DIO-taCaspase3-TEVp-
+WPRE-pA
+Taitool Bioscience, Co, Shanghai
+Cat. No. S0236
+AAV2/9-hSyn-DIO-hM4D(Gi)-EGFP-
+WPRE-pA
+Taitool Bioscience, Co, Shanghai
+Cat. No. S0286
+AAV2/9-EF1a-DIO-EGFP-WPRE-pA
+Taitool Bioscience, Co, Shanghai
+Cat. No. S0270
+AAV2/9-hEF1a-DIO-hChR2-EYFP-
+WPRE-pA
+Taitool Bioscience, Co, Shanghai
+Cat. No. S0199
+Chemicals, peptides, and recombinant proteins
+Clozapine-N-oxide (CNO)
+Sigma-Aldrich
+Cat. No. C0832; CAS: 34233-69-7
+ProLong Gold Antifade Mountant
+with DAPI
+Invitrogen
+Cat. No. P36931
+RNAscope Probe- Mm-Vip
+Advanced Cell Diagnostics
+Cat. No. 415961
+RNAscope Probe- Mm-Avp-C2
+Advanced Cell Diagnostics
+Cat. No. 401391-C2
+RNAscope Probe- Mm-Cck-C3
+Advanced Cell Diagnostics
+Cat. No. 402271-C3
+RNAscope Probe- Mm-Fos
+Advanced Cell Diagnostics
+Cat. No. 316921
+Experimental models: Organisms/strains
+Mouse: C57BL/6J
+SLAC Laboratory Animal
+Strain #000664; RRID: IMSR_JAX:000664
+Mouse: CCK-IRES-Cre
+Jackson Laboratory
+JAX 019021; RRID: IMSR_JAX:019021
+Mouse: Vip-IRES-Cre
+Jackson Laboratory
+Strain #010908; RRID: IMSR_JAX:010908
+Mouse: AVP-IRES2-Cre-D
+Jackson Laboratory
+Strain #023530; RRID: IMSR_JAX:023530
+Mouse: Ai9
+Jackson Laboratory
+Strain #007905; RRID: IMSR_JAX:007905
+Software and algorithms
+Doric Neuroscience Studio
+Doric Lenses
+https://neuro.doriclenses.com/pages/
+ﬁber-photometry; RRID:SCR_018569
+Custom-written R code for analysis
+R
+Zenodo: https://doi.org/10.5281/zenodo.
+7824372; RRID:SCR_001905
+Custom-written MATLAB code for analysis
+MathWorks
+Zenodo: https://doi.org/10.5281/zenodo.
+7824372; RRID:SCR_001622
+ImageJ
+ImageJ
+https://imagej.nih.gov/ij/docs/faqs.html;
+RRID:SCR_003070
+ActogramJ
+Schmid et al.42
+https://bene51.github.io/ActogramJ/
+ll
+Article
+e1
+Neuron 111, 2201–2217.e1–e4, July 19, 2023
+
+
+=== PAGE 20 ===
+Materials availability
+This study did not generate new unique reagents.
+Data and code availability
+d Data reported in this paper are available from Dr. Jun Yan upon reasonable request.
+d Original code has been deposited at Zenodo and is publicly available. The DOI and a link to the code are listed in the key re-
+sources table.
+d Any additional information required to reanalyze the data reported in this paper is available from Dr. Jun Yan upon request.
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+Animals
+All experiments were conducted with 8-24 week old male mice. All mice were housed at a speciﬁc pathogen-free facility with exhaust
+ventilated, close-system, cage rank. At most ﬁve mice were caged together in a corncob-bedded cage. The room was controlled at
+20–22C, 30–70% humidity and a 12h light-dark cycle (LD). Animals were fed ad lib, with access to water and standard mouse chow
+(Shoobree). For in vivo ﬁber photometry and optogenetics experiments, we used heterozygous CCK-IRES-Cre and VIP-IRES-Cre
+mice on a C57BL/6 background that were at least 7 weeks old at the time of virus injection. Following stereotactic injection, ﬁberoptic
+cannula implantation and recovery for 1 week, mice were single-housed in custom-built cages (20cm 3 20cm 3 30cm) with ad lib
+access to food and water. For optogenetic and chemogenetic experiments, we used heterozygous CCK-IRES-Cre and VIP-IRES-Cre
+mice on a C57BL/6 background that were at least 7 weeks old at the time of virus injection. To help identify CCK cells in some
+experiments, mice were crossed to Ai9 mice to yield heterozygous CCK-IRES-Cre:Ai9 mice that expressed a tdTomato ﬂuorescent
+reporter in CCK cells. All animal experiments conform with the agreement of the Committee on Laboratory Animals of the Institute of
+Neuroscience, Chinese Academy of Sciences (IACUC no. NA-023-2022).
+METHOD DETAILS
+Viruses
+To ablate SCN CCK neurons, AAV-CAG-DIO-taCaspase3-TEVp-WPRE-pA (AAV2/9, titer: 5.5 3 1012 v.g./mL, from Taitool Biosci-
+ence) or AAV-EF1a-DIO-EYFP-WPRE-pA (AAV2/9, titer: 8.3 3 1012v.g./mL, from Taitool Bioscience) was injected into SCN bilaterally
+in CCK-IRES-Cre mice at a volume of 150nL for each side. To record the calcium activity of SCN CCK and VIP neurons, AAV-EF1a-
+DIO-GCaMP6s-P2A-nls-tdTomato (AAV2/9, titer: 8.0 3 1012v.g./mL, from Taitool Bioscience) was injected into SCN unilaterally in
+CCK-IRES-Cre and VIP-IRES-Cre mice at a volume of 100nL. To inhibit the neurotransmitter release of SCN CCK neurons, AAV-
+hSyn-DIO-TeNT-P2A-EGFP-WPRE-pA (AAV2/9, titer: 2.0 3 1012v.g./mL, from BrainVTA) was injected into SCN bilaterally in
+CCK-IRES-Cre at a volume of 80nL for each side. To inhibit the neuron activity of SCN CCK neurons, AAV-hSyn-DIO-hM4D(Gi)-
+EGFP-WPRE-pA (AAV2/9, titer: 5.0 3 1012v.g./mL, from Taitool Bioscience) was injected into SCN bilaterally in CCK-IRES-Cre at
+a volume of 80nL for each side. To activate the neuron activity of SCN CCK or VIP neurons, AAV-hEF1a-DIO-ChR2-EYFP-WPRE-
+pA (AAV2/9, titer: 9.6 3 1012v.g./mL, from Taitool Bioscience) was injected into SCN bilaterally in CCK-IRES-Cre or VIP-IRES-Cre
+at a volume of 40nL for each side.
+Virus injection and stereotaxic surgery
+All stereotactic surgeries were performed generally on a RWD stereotactic (model 68507, RWD Life Science) frame with animals
+anesthetized under isoﬂurane when body temperature of the animal was maintained by a heating pad. Brieﬂy, the skull was exposed
+with a small incision and injections of viruses or tracers were carried out via an oil pressure system using glass pipettes (tip diameter
+of 10-30mm) connected to the NARISHIGE mo-10 micromanipulator pump at a rate of 20nL/min. For viral injection, the following co-
+ordinates, according to the standard mouse brain atlas (Paxinos and Franklin Mouse Brain Atlas, 2nd edition), were used to target
+SCN, AP: -0.550 mm, LM: 0.750mm, DV: 5.65mm, dip angle of six degrees. For optogenetics manipulations, unilateral optic ﬁbers
+(diameter, 200 mm; N.A., 0.37; length, 7 mm for SCN; AniLab Software and Instruments Co., Ltd) were implanted (SCN, AP:
+-0.550mm, LM: 0.200mm, DV: 5.250mm) through the drilled holes and secured onto the skull with dental cement and 3M adhesive.
+For ﬁber photometry recordings, unilateral optic ﬁbers (400 mm core; 0.57 NA; 1.5 m in length; Doric Lenses) were implanted (SCN,
+AP: -0.550mm, LM: 0.200mm, DV: 5.250mm) through the drilled holes and secured onto the skull with dental cement and 3M
+adhesive.
+Fiber photometry recordings
+Fiber photometry system (Doric Lenses) was used to record the calcium signal of SCN neurons in freely moving mice. The ﬁber
+photometry system consists of Fiber Photometry Console with the Doric Neuroscience Studio Software (Doric Lenses) to control
+the LED Driver (2-Channel Model, Doric Lenses), Fluorescence MiniCube (4 ports with 1 Integrated Photodetector Head and 2 inte-
+grated LEDs including 405nm and 470nm, Doric Lenses) to give excitation light into the tethered ﬁber-optic cable. GCaMP6s
+ll
+Article
+Neuron 111, 2201–2217.e1–e4, July 19, 2023
+e2
+
+
+=== PAGE 21 ===
+ﬂuorescence was collected through the same ﬁber-optic cable, passed through an emission ﬁlter (500 – 550 nm), and focused
+through a patch cord onto the integrated photodetector from Fluorescence MiniCube. Then, the signal was transferred to the Fluo-
+rescence Detector Ampliﬁer (Doric Lenses), following the signal being sent to the software on the computer for recording and anal-
+ysis. The system interleaved blue 470 nm and violet 405 nm LED lights at 20Hz, voltage signals from the ampliﬁers were collected at
+12kHz. The 405 nm signal was used to eliminate the noise caused by mouse movement or environmental interruption.
+We implanted optic ﬁber (1.25mm diameter ferrule, 400 mm diameter ﬁber core, 0.5NA, 6mm in length; NEWDOON) with 6 degrees
+in SCN just after the AAV injection. After recovery and virus expression, mice were transferred to individual open-topped cages in a
+light-controlled chamber with food and water available ad lib. Freely moving mice were chronically tethered to a ﬁber-optic cable
+(400 mm core; 0.57 NA; 1.5 m in length; Doric Lenses) connected to the implanted optic ﬁber by a zirconia mating sleeve. Then
+we screened all mice, leaving the mice with rhythmic Calcium signal for further recording. The light intensity was 30-40 mw at the
+tip of the patch cord at the animal side. During the recording, the mouse was housed in a 12-h light–dark cycle for more than
+5 days (12L:12D condition), and was then moved to continuous darkness (DD) or lightness (LL) for approximately 10 days or
+20L:4D condition. Mice were excluded from analysis if the ﬁber or virus was off-target by histology.
+Fiber photometry data analysis
+Acquired data ﬁles were loaded and processed with custom-written codes in MATLAB. First, we extracted the calcium-dependent
+signal (470nm) and the calcium-independent signal (405nm). Then, the detected signal was averaged in a 30 s session. The 405nm
+signal was calculated as the baseline (F). We calculated the changes in ﬂuorescence (DF) as 475nm signal minus 405nm signal. The
+changes in ﬂuorescence over baseline (DF/F) were calculated as (475nm signal – 405nm signal)/(405nm signal).
+Optogenetic manipulations and behavior rhythm recordings
+For in vivo activation of SCN neurons, anesthetized mice were placed into a stereotaxic device and unilaterally implanted optic ﬁbers
+(diameter, 200 mm; N.A., 0.37; length, 7 mm for SCN; AniLab Software and Instruments Co., Ltd) through the drilled holes and
+secured onto the skull with dental cement and 3M adhesive. After at least 1-week recovery, mice surgically received a telemetry
+sensor implant (TA-F10 transmitter, Data Sciences International, New Brighton, MN, USA). The implanting surgery was conducted
+as per manufacturer instructions. After at least 1-week recovery, each mouse was individually housed in a cage that was placed on
+top of a receiver (DSI). Throughout the experiment, signals were collected at 1 Hz and saved as 1-min consecutive average by a PC
+desktop running Ponemah physiology platform 6.5 software (DSI). Tb and LMA values were recorded at 1-min intervals. The cage of
+each mouse was changed every 2 weeks, and health checks were performed daily by real-time data analysis. Then mice were
+chronically tethered to a ﬁber-optic cable (diameter, 200 mm; N.A., 0.37; length, 1.5m; AniLab) attached to the implanted cannula
+and connected to a blue LED (470 nm, power: 10mw-25mw, AniLab) under the control of a LED driver (AniLab). Mice were kept in
+constant darkness (DD) or constant lightness (LL) and allowed to free run for at least 5 days before blue light stimulation. Blue light
+pulses (470 nm, 4Hz,10mw-15mw, 10 ms duration, 1 h) were generated at various circadian times. Mice were excluded from analysis
+if the ﬁber or virus was off-target by histology.
+Body temperature (Tb) and locomotor activity (LMA) analyses
+Mice were individually housed in cages with ad lib access to food and water. Data was collected using DSI (TA-F10 transmitter, Data
+Sciences International, New Brighton, MN, USA). We calculated the phase response curve by identifying the changes in behavior (Tb
+and LMA) onsets evoked by optogenetic stimulation compared to the same mouse under free-running conditions (DD and LL). We
+identiﬁed activity onset and calculated phase shift compared to the same mouse under free-running conditions and allowed the in-
+clusion of mice with visibly different periods. The phase shift is the difference between the predicted phase (the predicted value is
+calculated by the free-running period of each mouse) and the observed phase.
+SmFISH
+Mice were transcardially perfused with 4% PFA (in 13 PBS) at different circadian times after circadian entrainment, as mentioned
+above. The perfusion was performed quickly under dim red light. Brains were harvested and then immersed into 4% PFA kept at
+4 C for >24h. The tissue was immersed in 10% sucrose in 13 PBS at 4 C. This step was repeated with 20% sucrose in 13 PBS,
+followed by 30% sucrose in 13 PBS, each time allowing the tissue to sink to the bottom of the container. The brain was cut into a
+2mm 3 2mm 3 2mm cube containing the SCN. The tissue was frozen in OCT with liquid nitrogen and stored at 80 C. Then the
+tissue was cryosectioned (Leica CM1950) into 10-mm sections and stored in an airtight container at 80 C. Each SCN was sequen-
+tially divided into 4 similar sets in order to perform different experiments. All sections were mounted with SuperFrost Plus slides
+(Thermo Fisher Scientiﬁc, catalog no. 4951PLUS). RNAscope in situ hybridizations were performed according to the manufacturer’s
+instructions, using the RNAscope Multiplex Fluorescent kit V2 (Advanced Cell Diagnostics) for ﬁxed frozen tissue. Reagent dosage
+was adjusted according to the sample size. The slices were imaged with a confocal microscope at 320 magniﬁcation (Nikon A1).
+Immunohistochemistry
+To examine the activation of SCN neurons, we measured FOS protein induction in mice implanted with a ﬁber-optic aimed at the SCN
+after 1 h of stimulation (4Hz, 10ms pulses) during early subjective night (CT14). Animals were anesthetized with 30% ethyl carbamate
+ll
+Article
+e3
+Neuron 111, 2201–2217.e1–e4, July 19, 2023
+
+
+=== PAGE 22 ===
+and transcardially perfused with PBS and 4% paraformaldehyde (PFA). The perfusion was performed quickly under dim red light.
+Brains were harvested and then immersed into 4% PFA kept at 4 C for >24h. The tissue was immersed in 30% sucrose in 13
+PBS at 4 C. Then the tissue was cryosectioned (Leica CM1950) into 30-40mm sections. For FOS immunoﬂuorescence, slices
+were washed 3315 minutes in 13PBS; incubated 2h in blocking solution (5% GS, 0.1M PBS) at room temperature, then incubated
+in rabbit anti FOS antibody (1:1000 in PBS; Cell Signaling Technology) overnight at 4C. Then slices were also washed for 1 h in PBS
+and incubated in goat anti-rabbit FITC secondary antibody (1:200 in PBS) for 2 h at room temperature. All sections were mounted with
+SuperFrost Plus slides (Thermo Fisher Scientiﬁc, catalog no. 4951PLUS). The slices were imaged with a confocal microscope at 320
+magniﬁcation (Nikon A1).
+CNO administration
+Clozapine N-oxide (CNO; C0832, Sigma-Aldrich) was dissolved in sterile saline to a concentration of 1mg/ml and kept as frozen
+aliquots. Before each experiment, CNO was diluted with saline to 0.5mg/ml and administered by intraperitoneal injection to each
+mouse (0.3 ml/30 g body weight) through the silicon tube. For light induced experiment, we inject CNO into mice at ZT 14 and ZT
+22. For 6-hour phase advance jet lag experiment, we inject CNO into mice at ZT6 before light off during 6-hour phase advance jet lag.
+Wheel running behavior analyses
+Mice were individually housed in cages containing wireless running wheels with ad lib access to food and water. Data was collected
+using Low-Proﬁle Wireless Running Wheel (Med Associates Inc). Mice were entrained to a 12 hours light (200-300lux) 12 hours dark
+cycle for a minimum of 7 days prior to the release into DD, 20L:4D or LL (100lux). We used c2 periodogram to calculated free-running
+period over 7 days for each mouse. We used ActogramJ software (imageJ plugin) to identify activity onset and offset from wheel
+running data in 1-min bin.42 Animals with a loss of circadian rhythms were excluded from period calculations.
+QUANTIFICATION AND STATISTICAL ANALYSIS
+Statistical tests and sample sizes are provided in the ﬁgure legends. R (R Software, https://www.r-project.org) was used for statistical
+analysis. For ﬁber photometry data analysis, Kolmogorov-Smirnov test and two-way ANOVA with Tukey HSD post hoc test were
+used to compare calcium signal waveforms. For wheel running data analysis, unpaired Student’s t test was used to compare period
+and two-way ANOVA test was used to compare actogram proﬁle, onset, offset and alpha. For Tb and LMA data analysis, one-way
+ANOVA and two-way ANOVA with Tukey or Scheffe HSD post hoc test were used to compare phase shift. Data are presented as the
+mean ± SEM. Levels of statistical signiﬁcance are indicated as follows: n.s.: not signiﬁcant, *P<0.05, **P<0.01, ***P<0.001, and
+****P<0.0001.
+ll
+Article
+Neuron 111, 2201–2217.e1–e4, July 19, 2023
+e4
+
+
