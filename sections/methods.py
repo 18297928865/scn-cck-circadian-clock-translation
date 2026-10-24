@@ -3,7 +3,7 @@
 METHODS_HTML = """
 <section id="methods" class="section-card">
   <div class="section-title-wrap">
-    <h2 class="section-title"><span class="sec-num">10</span> 研究方法与实验细节 (STAR+Methods)</h2>
+    <h2 class="section-title"><span class="sec-num">09</span> 研究方法与实验细节 (STAR+Methods)</h2>
   </div>
 
   <div class="trans-content">

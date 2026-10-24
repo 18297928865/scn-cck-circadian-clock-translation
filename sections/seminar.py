@@ -3,7 +3,7 @@
 SEMINAR_HTML = """
 <section id="seminar-guide" class="section-card seminar-section">
   <div class="section-title-wrap">
-    <h2 class="section-title"><span class="sec-num">08</span> 文献汇报与学术研讨深度指南 (Literature Seminar & Defense Guide)</h2>
+    <h2 class="section-title"><span class="sec-num">10</span> 文献汇报与学术研讨深度指南 (Literature Seminar & Defense Guide)</h2>
     <p class="section-subtitle">专为博士生/青年学者 Literature Presentation (Journal Club) 与答辩定制的深度综述与剖析</p>
   </div>
 

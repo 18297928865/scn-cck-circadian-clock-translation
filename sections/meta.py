@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 META_HTML = """
-<header class="paper-header">
+<header id="meta-info" class="paper-header">
   <div class="journal-badge">
     <span class="badge-tag">Neuron</span>
     <span class="badge-vol">Volume 111, Issue 14, p2201–2217.e4, July 19, 2023</span>

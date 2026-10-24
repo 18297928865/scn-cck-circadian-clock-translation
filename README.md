@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-Academic%20Presentation-orange.svg)](#)
 
 > **本项目专为神经科学与时间生物学博士生 / 青年学者文献汇报（Journal Club / Seminar）及答辩精心打造。**  
-> 包含 **100% 忠实原文的全文逐字逐句翻译**（严格保留所有 Figure 引用，插入原篇高清插图与中英双语图注）、**专业概念深度解析**、**学术研讨 6 大核心新颖点提炼**、**Pittendrigh-Daan E/M 假说半世纪演进背景拓展**，以及**导师/评委高频 5 大答辩 Q&A 模拟全套实战解答**。
+> 包含 **100% 忠实原文的全文逐字逐句翻译**（严格保留所有 Figure 引用，插入原篇高清插图与中英双语图注）、**专业概念深度解析**、**学术研讨 6 大核心新颖点提炼**、**Pittendrigh-Daan E/M 假说半世纪演进背景拓展**、**导师/评委高频 5 大答辩 Q&A 模拟全套实战解答**、**博士生高阶审辩式思考与方法学局限分析（Critiques & Caveats）**，以及**全套 15 页幻灯片蓝图与 20 分钟现场逐字讲稿（Presentation Deck & Script）**。
 
 ---
 
@@ -20,8 +20,10 @@
 - 🖼️ **原论文全高清图表无缝内嵌**：Graphical Abstract 及 Figure 1 ~ Figure 6 全图插入对应章节，支持点击**模态灯箱（Lightbox）全屏高清单图放大**。
 - 🌓 **一键暗黑/明亮模式切换**：支持系统自适应与随时手动切换护眼主题。
 - 🌐 **双语灵活对照显示**：支持一键隐藏/展开英文原文对比框。
-- 📑 **浮动滚动监听目录（Scrollspy TOC）与阅读进度条**：章节跳转随心所欲。
+- 📑 **浮动滚动监听目录（Scrollspy TOC）与阅读进度条**：12个核心大章随心跳转。
 - 🎓 **文献汇报与答辩专属模块**：系统总结 6 大创新点、重要性、深度背景及 5 大答辩质疑应对策略。
+- 🔍 **博士级审辩式评估（Critique & Caveats）**：直击方法学盲区、受体脱敏与日夜行性转化壁垒。
+- 🎙️ **15页幻灯片与20分钟逐字讲稿**：包含视觉排版蓝图、激光笔动作指示、幻灯片过渡桥梁语与实战逐字发言稿。
 
 ---
 
@@ -51,10 +53,12 @@
 
 ```text
 scn-cck-circadian-clock-translation/
-├── index.html               # 交互式网页核心单文件（包含全译文、高清图表、答辩指南）
-├── build.py                 # 网页自动化组装与构建脚本
-├── README.md                # 仓库详尽介绍文档
-├── figures/                 # 论文高清矢量提取图表集合 (1080P+)
+├── index.html                           # 交互式网页核心单文件（包含全译文、高清图表、答辩指南、逐字讲稿）
+├── build.py                             # 网页自动化组装与构建脚本
+├── README.md                            # 仓库详尽介绍文档
+├── CRITIQUE_AND_LIMITATIONS.md          # 论文局限、方法学盲点与审辩式思考报告（博士答辩必备）
+├── PRESENTATION_SLIDES_AND_SCRIPT.md    # 15页学术汇报幻灯片架构与20分钟逐字讲稿全景手册
+├── figures/                             # 论文高清矢量提取图表集合 (1080P+)
 │   ├── graphical_abstract.png
 │   ├── figure1.png
 │   ├── figure2.png
@@ -62,16 +66,18 @@ scn-cck-circadian-clock-translation/
 │   ├── figure4.png
 │   ├── figure5.png
 │   └── figure6.png
-├── images/                  # 图表镜像备份目录
-└── sections/                # 模块化独立翻译与研讨章节源码
-    ├── meta.py              # 论文元数据、Graphical Abstract 与 In Brief
-    ├── intro.py             # 引言逐字翻译与核心背景拓展
-    ├── results_1_2.py       # 结果 1-2 全文翻译、图1-2与图注
-    ├── results_3_4.py       # 结果 3-4 全文翻译、图3-4与图注
-    ├── results_5_6.py       # 结果 5-6 全文翻译、图5-6与图注
-    ├── discussion.py        # 讨论逐字翻译与物种间模型对照
-    ├── methods.py           # STAR+Methods 详尽实验方法全译
-    └── seminar.py           # 汇报答辩 6大创新点、重要性、深度背景与 5大问答
+├── images/                              # 图表镜像备份目录
+└── sections/                            # 模块化独立翻译与研讨章节源码
+    ├── meta.py                          # 论文元数据、Graphical Abstract 与 In Brief
+    ├── intro.py                         # 引言逐字翻译与核心背景拓展
+    ├── results_1_2.py                   # 结果 1-2 全文翻译、图1-2与图注
+    ├── results_3_4.py                   # 结果 3-4 全文翻译、图3-4与图注
+    ├── results_5_6.py                   # 结果 5-6 全文翻译、图5-6与图注
+    ├── discussion.py                    # 讨论逐字翻译与物种间模型对照
+    ├── methods.py                       # STAR+Methods 详尽实验方法全译
+    ├── seminar.py                       # 汇报答辩 6大创新点、重要性、深度背景与 5大问答
+    ├── critique.py                      # 论文局限性、理论瓶颈与高阶审辩思考
+    └── presentation.py                  # 15页汇报幻灯片蓝图与20分钟完整逐字稿模块
 ```
 
 ---

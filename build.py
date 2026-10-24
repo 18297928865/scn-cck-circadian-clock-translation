@@ -18,6 +18,8 @@ from sections.results_5_6 import RESULTS_5_6_HTML
 from sections.discussion import DISCUSSION_HTML
 from sections.methods import METHODS_HTML
 from sections.seminar import SEMINAR_HTML
+from sections.critique import CRITIQUE_HTML
+from sections.presentation import PRESENTATION_HTML
 
 INDEX_HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN" data-theme="light">
@@ -768,6 +770,8 @@ INDEX_HTML_TEMPLATE = """<!DOCTYPE html>
         <li class="toc-item"><a href="#discussion" class="toc-link"><span class="toc-num">08</span><span>讨论 (Discussion)</span></a></li>
         <li class="toc-item"><a href="#methods" class="toc-link"><span class="toc-num">09</span><span>实验方法 (STAR Methods)</span></a></li>
         <li class="toc-item"><a href="#seminar-guide" class="toc-link"><span class="toc-num">10</span><span>汇报与答辩指南</span></a></li>
+        <li class="toc-item"><a href="#critique-section" class="toc-link"><span class="toc-num">11</span><span>论文局限与审辩思考</span></a></li>
+        <li class="toc-item"><a href="#presentation-section" class="toc-link"><span class="toc-num">12</span><span>15页幻灯片与逐字讲稿</span></a></li>
       </ul>
     </aside>
 
@@ -781,6 +785,8 @@ INDEX_HTML_TEMPLATE = """<!DOCTYPE html>
       <!-- REPLACE_DISCUSSION_HTML -->
       <!-- REPLACE_METHODS_HTML -->
       <!-- REPLACE_SEMINAR_HTML -->
+      <!-- REPLACE_CRITIQUE_HTML -->
+      <!-- REPLACE_PRESENTATION_HTML -->
     </main>
 
   </div>
@@ -919,6 +925,8 @@ def build():
     full_html = full_html.replace("<!-- REPLACE_DISCUSSION_HTML -->", DISCUSSION_HTML)
     full_html = full_html.replace("<!-- REPLACE_METHODS_HTML -->", METHODS_HTML)
     full_html = full_html.replace("<!-- REPLACE_SEMINAR_HTML -->", SEMINAR_HTML)
+    full_html = full_html.replace("<!-- REPLACE_CRITIQUE_HTML -->", CRITIQUE_HTML)
+    full_html = full_html.replace("<!-- REPLACE_PRESENTATION_HTML -->", PRESENTATION_HTML)
 
     output_path = os.path.join(current_dir, "index.html")
     with open(output_path, "w", encoding="utf-8") as f:
