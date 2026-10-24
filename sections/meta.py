@@ -33,8 +33,19 @@ META_HTML = """
   </div>
 
   <div class="report-meta-box">
-    <div class="report-badge"><i class="fas fa-graduation-cap"></i> 博士生学术文献汇报专案</div>
-    <div class="report-tip">包含逐字忠实全文翻译（图文对照保留Figure编号）、核心专业词汇解析、图表原位插图与深度图注、新颖点与学术重要性提炼、以及面向答辩的超全背景知识拓展。</div>
+    <div class="report-badge"><i class="fas fa-graduation-cap"></i> 博士生高规格文献汇报与答辩备战专案 (PhD Journal Club Toolkit)</div>
+    <div class="report-tip">包含逐字忠实全文翻译（图文对照严格保留Figure编号）、核心专业词汇解析、原版高清图表模态灯箱、6大创新点与重要性提炼、Pittendrigh-Daan E/M 模型半世纪演进背景、10大高难度答辩攻防对策、15页汇报幻灯片蓝图与20分钟现场逐字讲稿。</div>
+    <div class="quick-download-bar" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+      <a href="SCN_CCK_Circadian_Clock_Journal_Club.pptx" download style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--primary); color: #fff; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; text-decoration: none; box-shadow: 0 2px 4px rgba(2, 132, 199, 0.3);">
+        <i class="fas fa-file-powerpoint"></i> 下载 16:9 PPTX 汇报课件 (含内嵌图与逐字备注)
+      </a>
+      <a href="JOURNAL_CLUB_DEFENSE_CHEATSHEET.md" target="_blank" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(217, 119, 6, 0.1); color: #d97706; border: 1px solid #d97706; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">
+        <i class="fas fa-shield-alt"></i> 答辩防身速查卡片 (10大高难度追问)
+      </a>
+      <a href="#presentation-section" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(14, 165, 233, 0.1); color: var(--primary); border: 1px solid var(--primary); padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; font-size: 0.9rem; text-decoration: none;">
+        <i class="fas fa-chalkboard-teacher"></i> 浏览 15 页幻灯片与 20 分钟逐字讲稿
+      </a>
+    </div>
   </div>
 </header>
 
